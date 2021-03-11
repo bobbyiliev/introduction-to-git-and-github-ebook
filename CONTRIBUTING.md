@@ -23,7 +23,7 @@ If you are adding a new translation, make sure to make a copy of the `./ebook/en
 
 ### [`ebook/{LANG}/content`](./ebook/{LANG}/content)
 
-All the Markdown files for the 'Introduction to Bash Scripting' guide are located within the [`content`](./content) directory for the specific language.
+All the Markdown files for the 'Introduction to Git and GitHub' guide are located within the [`content`](./content) directory for the specific language.
 
 For example if you are adding a Bulgarian transaltion copy the `./ebook/en` folder to `./ebook/bg`, translate the `.md` files in the `content` directory and submit a PR.
 

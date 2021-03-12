@@ -78,4 +78,6 @@ rm -r ebook
 
 > Note: keep in mind that the `rm` command would completely delete the files and folders and the action is irreversible, meaning that you can't get them back.
 
+One thing that you need to keep in mind is that all shell commands are case sensitive, so if you type `LS` it would not work.
+
 With that, now you know some basic shell commands which will be benefitial for your day-to-day activities.

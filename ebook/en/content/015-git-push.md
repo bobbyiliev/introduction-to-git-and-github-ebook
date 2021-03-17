@@ -22,6 +22,12 @@ If you did not follow the steps from the previous chapter, you can use HTTPS rat
 git remote add origin https://github.com/your_username/your_repo_name.git
 ```
 
+In order to verify your remote repository you could run the following command:
+
+```
+git remote -v
+```
+
 To do so just use the `git push` command:
 
 ```

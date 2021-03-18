@@ -55,4 +55,4 @@ Of course this is a simplified scenario. In the real world, you would not make a
 
 You need to make sure that you pull the latest changes everytime before you try to push your changes.
 
-Now that you know the basic Git commands, in the next chapter we will review a standard Git workflow.
+Now that you know the basic Git commands, let's go ahead and learn what Git Branches are.

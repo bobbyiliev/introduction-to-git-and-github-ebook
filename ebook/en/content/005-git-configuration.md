@@ -101,4 +101,4 @@ Output:
 COMMIT_EDITMSG  HEAD  branches  config  description  hooks  index  info  logs  objects  refs
 ```
 
-> Note: Before running the command you would need to be inside your project's directory. We will learn about this in the next chapters when we learn more about the `git init` command and cloning an existing repositroy from GitHub with the `git clone` command
+> Note: Before running the command you would need to be inside your project's directory. We will learn about this in the next chapters when we learn more about the `git init` command and cloning an existing repositroy from GitHub with the `git clone` command.

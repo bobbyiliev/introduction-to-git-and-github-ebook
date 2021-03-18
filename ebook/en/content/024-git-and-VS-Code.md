@@ -102,10 +102,12 @@ If you prefer to code in Visual Studio Code and you also use version control I w
 
 ## Additional sources:
 
-- [Version Control](https://code.visualstudio.com/docs/editor/versioncontrol) - Read more about integrated Git support.
-- [Setup Overview](https://code.visualstudio.com/docs/setup/setup-overview) - Set up and start using VS Code.
-- [GitHub with Visual Studio](https://www.notion.so/Git-version-control-with-Visual-Studio-Code-8de38af5cf324b9d89c4827e32dfe173) - Read more about the GitHub support in VS code
-- You can also check this mini video tutorial on how to use the basics of Git version control in Visual Studio Code
+* [Version Control](https://code.visualstudio.com/docs/editor/versioncontrol) - Read more about integrated Git support.
+* [Setup Overview](https://code.visualstudio.com/docs/setup/setup-overview) - Set up and start using VS Code.
+* [GitHub with Visual Studio](https://www.notion.so/Git-version-control-with-Visual-Studio-Code-8de38af5cf324b9d89c4827e32dfe173) - Read more about the GitHub support in VS code
+* You can also check this mini video tutorial on how to use the basics of Git version control in Visual Studio Code
 
-Contribured by: [Alex Georgiev](https://twitter.com/AlexGeorgiev17)
-Initially posted [here](https://devdojo.com/alexg/version-control-with-visual-studio-code-1).
+Source:
+
+* Contribured by: [Alex Georgiev](https://twitter.com/AlexGeorgiev17).
+* Initially posted [here](https://devdojo.com/alexg/version-control-with-visual-studio-code-1).

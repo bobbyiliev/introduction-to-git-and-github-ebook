@@ -4,12 +4,12 @@ return [
     /**
      * The book title.
      */
-    'title' => 'Laravel Queues in Action',
+    'title' => 'Introduction to Git and GitHub',
 
     /**
      * The author name.
      */
-    'author' => 'Mohamed Said',
+    'author' => 'Bobby Iliev',
 
     /**
      * The list of fonts to be used in the different themes.
@@ -31,6 +31,6 @@ return [
     /**
      * A notice printed at the final page of a generated sample.
      */
-    'sample_notice' => 'This is a sample from "Laravel Queues in Action" by Mohamed Said. <br> 
-                        For more information, <a href="https://www.learn-laravel-queues.com/">Click here</a>.',
+    'sample_notice' => 'This is a sample from "Introduction to Git and GitHub" by Bobby Iliev. <br> 
+                        For more information, <a href="https://devdojo.com/">Click here</a>.',
 ];

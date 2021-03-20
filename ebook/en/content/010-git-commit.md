@@ -59,4 +59,6 @@ no changes added to commit (use "git add" and/or "git commit -a")
 
 As you can see Git has detected that the `README.md` file has been modified and is also prompting us to use the command that we've learned to first stage/add the file!
 
+In case that you wanted to change your last commit message, you can run the `git commit --amend` command. This will open the default editor where you can change your commit message. Also this allows you to change the commit changes.
+
 The `git status` command gives us a great overview of the files that have changed, but it does not show us what actually the changes are. In the nect chapter we are going to learn how to check the differences from the last commit and the current changes.

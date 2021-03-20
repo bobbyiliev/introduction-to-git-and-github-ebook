@@ -151,6 +151,10 @@ If you ever need to create a graphic, poster, invitation, logo, presentation –
 - [Tails](http://devdojo.com/tails)
 - [Katacoda](https://www.katacoda.com/)
 
+## 📖 Other books
+
+- [Introduction to Bash Scripting eBook](https://github.com/bobbyiliev/introduction-to-bash-scripting)
+
 ## 🤲 Contributing
 
 If you are contributing 🍿 please read the [contributing file](CONTRIBUTING.md) before submitting your pull requests.

@@ -8,7 +8,7 @@ As with everything, there are multiple ways to do a specific thing. But what I w
 git commit -m "Committing the wrong changes"
 ```
 
-* After that if you run `git log` you will see the history of everything that has been committed to a repository.
+* After that if you run `git log`, you will see the history of everything that has been committed to a repository.
 
 * To undo the last commit, just run the following:
 
@@ -18,11 +18,11 @@ git reset --soft HEAD~1
 
 The above command will reset back with 1 point.
 
-**Note:** the above would undo your commit but it would keep your code changes if you would like to get rid of the changes as well you need to do a hard reset: `git reset --hard HEAD~1`
+**Note:** the above would undo your commit, but it would keep your code changes if you would like to get rid of the changes as well, you need to do a hard reset: `git reset --hard HEAD~1`
 
-* After that make your new changes
+* After that, make your new changes
 
-* Once you are done with the changes run `git add` to add any of the files that you would like to be included in the next commit:
+* Once you are done with the changes, run `git add` to add any of the files that you would like to be included in the next commit:
 
 ```
 git add .

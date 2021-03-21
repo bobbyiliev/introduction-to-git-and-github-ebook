@@ -1,10 +1,10 @@
 # Git Pull
 
-If you are working on a project with multiple peaople, chances are that the codebase will change very often. So you would need to have a way to get the latest changes from the GitHub repository to your local machine. 
+If you are working on a project with multiple people, the chances are that the codebase will change very often. So you would need to have a way to get the latest changes from the GitHub repository to your local machine. 
 
-You already know that you can use the `git push` command to push your latest commits, so in order to do the oposite and pull the latest commits from GitHub to your local project, you need to use the `git pull` command.
+You already know that you can use the `git push` command to push your latest commits, so in order to do the opposite and pull the latest commits from GitHub to your local project, you need to use the `git pull` command.
 
-To test this, let's go ahead and make a change directly on GitHub directly. Once you are there click on the `README.md` file and then click on the pencil icon to edit the file:
+To test this, let's go ahead and make a change directly on GitHub directly. Once you are there, click on the `README.md` file and then click on the pencil icon to edit the file:
 
 ![Edit File GitHub](https://user-images.githubusercontent.com/21223421/111460030-2688bd00-8724-11eb-9569-d6327847b443.png)
 
@@ -12,9 +12,9 @@ Make a minor change to the file, add a descriptive commit message and click on t
 
 ![Commit change via GitHub](https://user-images.githubusercontent.com/21223421/111460194-5afc7900-8724-11eb-9c43-a8952961fca8.png)
 
-With that, you've now made a commit directly on GitHub so your local repository will be behind the remote GitHub repository.
+With that, you've now made a commit directly on GitHub, so your local repository will be behind the remote GitHub repository.
 
-If you were to try and push a change now to that same branch, it will fail with the following error:
+If you were to try and push a change now to that same branch, it would fail with the following error:
 
 ```
  ! [rejected]        main -> main (fetch first)
@@ -26,7 +26,7 @@ hint: (e.g., 'git pull ...') before pushing again.
 hint: See the 'Note about fast-forwards' in 'git push --help' for details.
 ```
 
-As stated in the output, the remote repository is head of your local one, so you need to run the `git pull` command to get the latest changes:
+As stated in the output, the remote repository is ahead of your local one, so you need to run the `git pull` command to get the latest changes:
 
 ```
 git pull origin main
@@ -47,12 +47,12 @@ From github.com:bobbyiliev/demo-repo
  1 file changed, 2 insertions(+), 1 deletion(-)
 ```
 
-We can see that the `README.md` file was change and that there were 2 new lines added and 1 line deleted.
+We can see that the `README.md` file was changed and that there were 2 new lines added and 1 line deleted.
 
-Now if you were to run `git log` you will see the commit that you've made on GitHub available locally.
+Now, if you were to run `git log`, you will see the commit that you've made on GitHub available locally.
 
-Of course this is a simplified scenario. In the real world, you would not make any changes directly to GitHub, but you would most likely work with other people on the same project and you would have to pull their latest changes on regular basis.
+Of course, this is a simplified scenario. In the real world, you would not make any changes directly to GitHub, but you would most likely work with other people on the same project, and you would have to pull their latest changes on a regular basis.
 
-You need to make sure that you pull the latest changes everytime before you try to push your changes.
+You need to make sure that you pull the latest changes every time before you try to push your changes.
 
-Now that you know the basic Git commands, let's go ahead and learn what Git Branches are.
+Now that you know the basic Git commands let's go ahead and learn what Git Branches are.

@@ -26,8 +26,8 @@ Rundown of the output:
 
 * `commit da46ce39a3fd663ff802d013f834431d4b4159a5`: Here you can see the specific commit ID
 * `Author: Bobby Iliev... `: Then you can see who created the changes
-* `Date:   Fri Mar 12...`: After that you've got the exact time and date when the commit was created
-* Finally you have the commit message, this is one of the reasons why it is important to write short and descriptive commit messages, so that later on you could tell what changes were introduced by the particular commit.
+* `Date:   Fri Mar 12...`: After that, you've got the exact time and date when the commit was created
+* Finally, you have the commit message. This is one of the reasons why it is important to write short and descriptive commit messages so that later on, you could tell what changes were introduced by the particular commit.
 
 If you want to check the differences between the current state of your repository and a particular commit, what you could do is use the `git diff` command followed by the commit ID:
 
@@ -62,4 +62,4 @@ Output:
 * fa58347 Initial commit
 ```
 
-With that you now know how to check your commit history! Next let's go ahead and learn how to exclude specific files from Git!
+With that, you now know how to check your commit history! Next, let's go ahead and learn how to exclude specific files from Git!

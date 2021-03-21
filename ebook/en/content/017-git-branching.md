@@ -1,20 +1,20 @@
 # Git Branches
 
-So far we have been working only on our Main branch which is created by default when creating a new GitHub repository. In this chapter you will learn more about Git Branches. why you need them and how to work with them.
+So far, we have been working only on our Main branch, which is created by default when creating a new GitHub repository. In this chapter, you will learn more about Git Branches. Why you need them and how to work with them.
 
 The official definition of a Git branch from the git-scm.com website is the following:
 
 > A branch in Git is simply a lightweight movable pointer to one of these commits.
 
-This might be a bit confusing in case that you are just getting started. So you could think of branches as a way to work on youyr project by adding new feature of bug fixes without affecting the Main branch.
+This might be a bit confusing in case that you are just getting started. So you could think of branches as a way to work on your project by adding a new feature of bug fixes without affecting the Main branch.
 
-That way, each new feature or bug fix that you are developing, could live on a separate branch, and later on once you are ready and have fully tested the changes, you can merge the new branch to your main branch. You wil learn more about merging in the next chapter!
+That way, each new feature or bug fix that you are developing could live on a separate branch, and later on, once you are ready and have fully tested the changes, you can merge the new branch to your main branch. You will learn more about merging in the next chapter!
 
-If we look into the following illustration where we have a few branches, you can see that it looks like a tree, hance the term branching:
+If we look into the following illustration where we have a few branches, you can see that it looks like a tree, hence the term branching:
 
 ![Git Branches](https://user-images.githubusercontent.com/21223421/111696461-03056580-883d-11eb-82c4-7f8d926629e6.png)
 
-Thanks to the multiple branches, you can have multiple people working on different feature or fixes at the same time each one working on their own branch.
+Thanks to the multiple branches, you can have multiple people working on different features or fixes at the same time each one working on their own branch.
 
 The image shows 3 branches:
 
@@ -22,7 +22,7 @@ The image shows 3 branches:
 * New Branch 1
 * New Branch 2
 
-The main branch is the default branch that you are already familiar with. We can consider the other two branches as two new features that are being developed. One developer could be working on a new contact form for your web application on branch #1 and another developer could be working on a user registration form feature on branch #2.
+The main branch is the default branch that you are already familiar with. We can consider the other two branches as two new features that are being developed. One developer could be working on a new contact form for your web application on branch #1, and another developer could be working on a user registration form feature on branch #2.
 
 Thanks to the separate branches, both developers could be working on the same project without getting into each others way.
 
@@ -36,7 +36,7 @@ Let's start by creating a new branch called `newFeature`. In order to create the
 git branch newFeature
 ```
 
-Now, in order to switch to that new branch, you would need to run the following cmmand:
+Now, in order to switch to that new branch, you would need to run the following command:
 
 ```
 git checkout newFeature
@@ -44,7 +44,7 @@ git checkout newFeature
 
 > Note: You can use the `git checkout` command to switch between different branches.
 
-The above two commands could be combined into 1, so that you don't have to create the branch first and then switch to the new branch, you could use this command instead which would do both:
+The above two commands could be combined into 1, so that you don't have to create the branch first and then switch to the new branch. You could use this command instead, which would do both:
 
 ```
 git checkout -b newFeature
@@ -56,7 +56,7 @@ Once you run this command, you will see the following output:
 Switched to a new branch 'newFeature'
 ```
 
-In order to check what branch you are currently on you can use the following command:
+In order to check what branch you are currently on, you can use the following command:
 
 ```
 git branch
@@ -77,7 +77,7 @@ If you were to use the `git checkout` command to switch to the `main` branch:
 git checkout main
 ```
 
-And then run `git branch` again you will see the following output indicating that you are now on the `main` branch:
+And then run `git branch` again. You will see the following output indicating that you are now on the `main` branch:
 
 ```
 * main
@@ -94,7 +94,7 @@ git checkout newFeature
 
 > Note: we only need to add the `-b` argument when creating new branches
 
-Check that you've actually switch to the correct branch:
+Check that you've actually switched to the correct branch:
 
 ```
 git branch
@@ -107,7 +107,7 @@ Output:
 * newFeature
 ```
 
-Now let's create a new file with some demo content, you can do that with the following command:
+Now let's create a new file with some demo content. You can do that with the following command:
 
 ```
 echo "<h1>My First Feature Branch</h1>" > feature1.html
@@ -122,7 +122,7 @@ git add feature1.html
 git commit -m "Add feature1.html"
 ```
 
-Thew new `feature1.html` file will only be present on the `newFeature` branch, if you were to switch to the `main` branch and run the `ls` command or check the `git log` you will be able to see that the file is not there.
+The new `feature1.html` file will only be present on the `newFeature` branch. If you were to switch to the `main` branch and run the `ls` command or check the `git log`, you will be able to see that the file is not there.
 
 You can check that by using the `git log` command:
 
@@ -142,7 +142,7 @@ git branch -m wrong-branch-name correct-branch-name
 
 If you want to rename your **current branch**, you could just run the following:
 
-```command,bash
+```
 git branch -m my-branch-name
 ```
 
@@ -170,8 +170,8 @@ git fetch
 
 ### Conclusion
 
-With that our `newFeature` branch is now ahead of the main branch with 1 commit. So in order to get that new changes over to the main branch we need to merge the `newFeature` branch into our `main` branch.
+With that, our `newFeature` branch is now ahead of the main branch with 1 commit. So in order to get that new changes over to the main branch, we need to merge the `newFeature` branch into our `main` branch.
 
-In the next chapter you will learn how to merge your changes from one branch to another!
+In the next chapter, you will learn how to merge your changes from one branch to another!
 
 One thing that you might want to keep in mind is that in the past when creating a new GitHub repository the default branch name was called `master`, however new repositories created on GitHub use `main` instead of `master` as the default branch name. This is part of GitHub's effort to remove unnecessary references to slavery and replace them with more inclusive terms.

@@ -1,6 +1,6 @@
 # Git Cheat Sheet
 
-Here is a list of the Git commants mentioned throughout the eBook
+Here is a list of the Git commands mentioned throughout the eBook
 
 * Git Configuration
 
@@ -18,7 +18,7 @@ The same would go for changing your email address associated with your commits a
 git config --global user.email "yourmail@example.com"
 ```
 
-That way once you have the above configured when you make a commit and then check the git log you will be able to see that the commit is associated with the details that you've configured above.
+That way, once you have the above configured when you make a commit and then check the git log, you will be able to see that the commit is associated with the details that you've configured above.
 
 ```
 git log
@@ -37,13 +37,13 @@ Date:   Fri Jun 19 17:03:53 2020 +0300
 
 ### Initializing a project
 
-To initialize a new local git project, open your git or bash terminal, `cd` to the directory that you would like your project to be stored at and then run:
+To initialize a new local git project, open your git or bash terminal, `cd` to the directory that you would like your project to be stored at, and then run:
 
 ```
 git init .
 ```
 
-If you already have an existing project in GitHub for example, you can clone it by using the git clone command:
+If you already have an existing project in GitHub, for example, you can clone it by using the git clone command:
 
 ```
 git clone your_project_url
@@ -61,17 +61,17 @@ This is probably one of the most used commands as you would need to check the st
 
 ### Add a file to the staging area
 
-Let's say that you have a static HTML project and you have already initialized your git repository.
+Let's say that you have a static HTML project, and you have already initialized your git repository.
 
-After that at a later stage, you decide to add a new HTML file called `about-me.html`, then you've added some HTML code in there already. In order to add your new file so that it is also tracked in git, you first need to use the `git add` command:
+After that, at a later stage, you decide to add a new HTML file called `about-me.html`, then you've added some HTML code in there already. In order to add your new file so that it is also tracked in git, you first need to use the `git add` command:
 
 ```
 git add file_name
 ```
 
-This will stage your new file which essentially means that the next time you make a commit, the change will be part of the commit.
+This will stage your new file, which essentially means that the next time you make a commit, the change will be part of the commit.
 
-To check that you can again run the `git status` command:
+To check that, you can again run the `git status` command:
 
 ```
 git status
@@ -91,13 +91,13 @@ Changes to be committed:
 
 ### Removing files
 
-In order to remove a file from your git project use the following command:
+In order to remove a file from your git project, use the following command:
 
 ```
 git rm some_file.txt
 ```
 
-Then after that, if you run `git status` again you will see that the `some_file.txt` file has been deleted:
+Then after that, if you run `git status` again, you will see that the `some_file.txt` file has been deleted:
 
 ```
 On branch main
@@ -117,13 +117,13 @@ In case that you've made a mistake and you want to discard the changes for a spe
 git checkout -- file_name
 ```
 
-This is a really handy command as you can really quickly revert a file back to its original content.
+This is a convenient command as you can really quickly revert a file back to its original content.
 
 ### Commit to local
 
 Once you've made your changes and you've staged them with the `git add` command, you need to commit your changes. 
 
-To do so you have to use the `git commit` command:
+To do so, you have to use the `git commit` command:
 
 ```
 git commit
@@ -139,7 +139,7 @@ git commit -m "Nice commit message here"
 
 ### List branches
 
-In order to list all of the available local branches just run the following command:
+In order to list all of the available local branches, just run the following command:
 
 ```
 git branch -a
@@ -161,9 +161,9 @@ The `remotes` keyword indicates that those branches are remote branches.
 
 ### Fetch changes from remote and merge the current branch with upstream
 
-If you are working together with a team of developers working on the same project, more often than not you would need to fetch the changes that your colleagues have made in order to have them locally on your PC.
+If you are working together with a team of developers working on the same project, more often than not, you would need to fetch the changes that your colleagues have made in order to have them locally on your PC.
 
-To do that all you need to do is to use the `git pull` command:
+To do that, all you need to do is to use the `git pull` command:
 
 ```
 git pull origin branch_name
@@ -173,7 +173,7 @@ Note that this will also merge the new changes to the current branch that you ar
 
 ### Create a new branch
 
-To create a new branch all you need to do is use the `git branch` command:
+To create a new branch, all you need to do is use the `git branch` command:
 
 ```
 git branch branch_name
@@ -189,9 +189,9 @@ If the `branch_name` already exists, you would get a warning that the branch nam
 
 ### Push local changes to remote
 
-Then finally once you've made all of your changes, you've staged them with the `git add .` command and then you committed the changes with the `git commit` command, you have to push those changes to the remote git repository.
+Then finally, once you've made all of your changes, you've staged them with the `git add .` command, and then you committed the changes with the `git commit` command, you have to push those changes to the remote git repository.
 
-To do so just use the `git push` command:
+To do so, just use the `git push` command:
 
 ```
 git push origin branch_name
@@ -209,12 +209,10 @@ git branch -d branch_name
 git checkout branch_name
 ```
 
-As mentioned above, if you add the `-b` flag it would create the branch if it does not exist.
+As mentioned above, if you add the `-b` flag, it would create the branch if it does not exist.
 
 ### Conclusion
 
 Knowing the above commands will let you manage your project like a pro!
 
-If you are interested in improving your command line skills in general I strongly recommend this [Linux Command-line basics course here](https://devdojo.com/course/linux-command-line-basics)!
-
-Hope that this helps!
+If you are interested in improving your command line skills in general, I strongly recommend this [Linux Command-line basics course here](https://devdojo.com/course/linux-command-line-basics)!

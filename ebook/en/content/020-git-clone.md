@@ -1,6 +1,6 @@
 # Git Clone
 
-More often than not, rather than starting a new project from scratch, you would either join a company and start working on an existing project, or you would contribute to an already established open source project. So in this case in order to get the repository from GitHub to your local machine you would need to use the `git clone` command.
+More often than not, rather than starting a new project from scratch, you would either join a company and start working on an existing project, or you would contribute to an already established open source project. So in this case, in order to get the repository from GitHub to your local machine, you would need to use the `git clone` command.
 
 The most straight forward way to clone your GitHub repository is to first visit the repository in your browser, and then click on the green `Code` button and choose the method that you want to use to clone the repository:
 
@@ -32,8 +32,8 @@ Receiving objects: 100% (215/215), 3.08 MiB | 5.38 MiB/s, done.
 Resolving deltas: 100% (114/114), done.
 ```
 
-Esentially what the `git clone` command does is to more or less download the repository from GitHub to your local folder.
+Essentially what the `git clone` command does is to more or less download the repository from GitHub to your local folder.
 
 Now you can start making the changes to the project by creating a new branch, writing some code, and finally committing and pushing your changes!
 
-One important thing to keep in mind is that in case that you are not the maintainer of the repository and do not have the rights to push to the repository, you would need to first fork the original repository and then clone the forked repository from your account. In the next chapter we will go through the full process of forking a repository!
+One important thing to keep in mind is that in case that you are not the maintainer of the repository and do not have the rights to push to the repository, you would need to first fork the original repository and then clone the forked repository from your account. In the next chapter, we will go through the full process of forking a repository!

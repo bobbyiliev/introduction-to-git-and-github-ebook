@@ -1,20 +1,20 @@
 # SSH Keys
 
-There are a few ways to authenticate with GitHub. Esentially you would need this so that you could push your local changes from your laptop to your GitHub repository.
+There are a few ways to authenticate with GitHub. Essentially you would need this so that you could push your local changes from your laptop to your GitHub repository.
 
 You could use one of the following methods:
 
-* HTTPS: Esentailly this would require your GitHub username and Password each time you try to push your changes
-* SSH: With SSH, you could generate an SSH Key pair and add your public key to GitHub. That way you would not be asked for your username and password everytime you push your changes to GitHub.
+* HTTPS: Essentially, this would require your GitHub username and password each time you try to push your changes
+* SSH: With SSH, you could generate an SSH Key pair and add your public key to GitHub. That way, you would not be asked for your username and password every time you push your changes to GitHub.
 
 ![Git And GitHub Login](https://imgur.com/y544tCR.png)
 
-One thing that you need to keep in mind is that the GitHub repository URL is different depending on weather you are using SSH or HTTPS:
+One thing that you need to keep in mind is that the GitHub repository URL is different depending on whether you are using SSH or HTTPS:
 
 * HTTPS: `https://github.com/bobbyiliev/demo-repo.git`
 * SSH: `git@github.com:bobbyiliev/demo-repo.git`
 
-Note that when you choose SSH the `https://` part is changed with `git@` and you have `:` after `github.com` rather than `/`. This is important as this defines how you would like to authenticate each time.
+Note that when you choose SSH, the `https://` part is changed with `git@`, and you have `:` after `github.com` rather than `/`. This is important as this defines how you would like to authenticate each time.
 
 ### Generating SSH Keys
 
@@ -28,8 +28,8 @@ For security reasons you can specify a passphrase, which essentially is the pass
 
 The above would generate 2 files:
 
-* 1 **private** SSH key and 1 public SSH key. The private key should always be stored stafely on your laptop and you should not share it with anyone.
-* 1 **public** SSH key which you need to upload to GitHub.
+* 1 **private** SSH key and 1 public SSH key. The private key should always be stored safely on your laptop, and you should not share it with anyone.
+* 1 **public** SSH key, which you need to upload to GitHub.
 
 The two files will be automatically generated at the following folder:
 
@@ -57,13 +57,13 @@ id_rsa  id_rsa.pub
 
 The `id_rsa` is your private key, and again you should not share it with anyone.
 
-The `id_rsa.pub` is the public key which would need to be uploaded to GitHub.
+The `id_rsa.pub` is the public key that would need to be uploaded to GitHub.
 
 ### Adding the public SSH key to GitHub
 
-Once you've created your SSH keys, you need to upload the **public** SSH key to your GitHub account. To do so you first need to get the content of the file.
+Once you've created your SSH keys, you need to upload the **public** SSH key to your GitHub account. To do so, you first need to get the content of the file.
 
-To get the conent of the file, you can use the `cat` command:
+To get the content of the file, you can use the `cat` command:
 
 ```
 cat ~/.ssh/id_rsa.pub
@@ -77,19 +77,19 @@ ssh-rsa AAB3NzaC1yc2EAAAADAQAB...... your_user@your_host
 
 Copy the whole thing and then visit [GitHub](https://github.com) and follow these steps:
 
-* Click on your profile picture on the rigt top
+* Click on your profile picture on the right top
 
 * Then click on settings
 
 ![GitHub Settings](https://imgur.com/tRDwDjC.png)
 
-* On the left click on `SSH and GPG Keys`:
+* On the left, click on `SSH and GPG Keys`:
 
 ![SSH Keys](https://imgur.com/iL2E3Ux)
 
-* After that click on the `New SSH Key` button
+* After that, click on the `New SSH Key` button
 
-* Then specify a title of the SSH key, it should be something descriptive, for example: `Work Laptop SSH Key`. And in the `Key` area paste your public SSH key:
+* Then specify a title of the SSH key, it should be something descriptive, for example: `Work Laptop SSH Key`. And in the `Key` area, paste your public SSH key:
 
 ![SSH Key GitHub](https://imgur.com/X89gLwD.png)
 
@@ -97,6 +97,6 @@ Copy the whole thing and then visit [GitHub](https://github.com) and follow thes
 
 ### Conclusion
 
-With that you now have your SSH Keys generated and added to GitHub. That way you will be able to push your changes without having to type your GitHub password and user each time.
+With that, you now have your SSH Keys generated and added to GitHub. That way, you will be able to push your changes without having to type your GitHub password and user each time.
 
 For more information about SSH keys, make sure to check this tutorial [here](https://www.digitalocean.com/community/tutorials/how-to-set-up-ssh-keys-2).

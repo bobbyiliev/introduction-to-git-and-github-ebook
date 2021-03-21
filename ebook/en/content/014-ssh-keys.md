@@ -85,7 +85,7 @@ Copy the whole thing and then visit [GitHub](https://github.com) and follow thes
 
 * On the left, click on `SSH and GPG Keys`:
 
-![SSH Keys](https://imgur.com/iL2E3Ux)
+![SSH Keys](https://imgur.com/iL2E3Ux.png)
 
 * After that, click on the `New SSH Key` button
 

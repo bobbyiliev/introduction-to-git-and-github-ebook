@@ -14,7 +14,7 @@
 
 This is an open-source introduction to Git and GitHub guide that will help you learn the basics of version control and start using Git for your SysOps, DevOps, and Dev projects. No matter if you are a DevOps/SysOps engineer, developer, or just a Linux enthusiast, you can use Git to track your code changes and collaborate with other members of your team or open source maintainers.
 
-The guide is suitable for anyone working as a developer, system administrator, or a DevOps engineer and wants to learn the basics of Git and GitHub.
+The guide is suitable for anyone working as a developer, system administrator, or a DevOps engineer and wants to learn the basics of Git, GitHub and version control in general.
 
 ## 🚀 Download
 
@@ -89,15 +89,15 @@ For more information, please visit [https://www.devdojo.com](https://www.devdojo
 
 A web page showcasing the eBook:
 
-[Introduction to Bash Scripting Web Page](https://ebook.bobby.sh/)
+[Coming Soon](#)
 
 The web page was built using [Tails](http://devdojo.com/tails), a new `kick-ass` drag-and-drop TailwindCSS page builder!
 
 ### DigitalOcean App Platform
 
-The [website](https://ebook.bobby.sh) is hosted on the [DigitalOcean App Platform](https://www.digitalocean.com/products/app-platform/).
+The will be hosted on the [DigitalOcean App Platform](https://www.digitalocean.com/products/app-platform/).
 
-We utilize the ["Deploy to DigitalOcean" Button](https://www.digitalocean.com/docs/app-platform/how-to/add-deploy-do-button) to deploy to the App Platform:
+We will utilize the ["Deploy to DigitalOcean" Button](https://www.digitalocean.com/docs/app-platform/how-to/add-deploy-do-button) to deploy to the App Platform:
 
 [![Deploy to DO](https://mp-assets1.sfo2.digitaloceanspaces.com/deploy-to-do/do-btn-blue.svg)](https://cloud.digitalocean.com/apps/new?repo=https://github.com/bobbyiliev/introduction-to-git-and-github-ebook/tree/main)
 

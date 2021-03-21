@@ -1,0 +1,7 @@
+spec:
+ name: introduction-to-git-and-github
+ static_sites:
+ - git:
+     branch: main
+     repo_clone_url: https://github.com/bobbyiliev/introduction-to-git-and-github-ebook
+   name: introduction-to-git-and-github

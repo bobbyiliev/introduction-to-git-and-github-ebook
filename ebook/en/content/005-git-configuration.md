@@ -6,7 +6,7 @@ There are a few main things that you would need to configure:
 
 * Your details: like your name and email address
 * Your Git Editor
-* The default branch name: we will learn more about branches laster on
+* The default branch name: we will learn more about branches later on
 
 We can change all of those things by using the `git config` command.
 

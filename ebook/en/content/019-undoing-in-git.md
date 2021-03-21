@@ -4,7 +4,7 @@ As with everything, there are multiple ways to do a specific thing. But what I w
 
 * Let's say that you made some changes and you committed the changes:
 
-```command
+```bash
 git commit -m "Committing the wrong changes"
 ```
 
@@ -12,7 +12,7 @@ git commit -m "Committing the wrong changes"
 
 * To undo the last commit, just run the following:
 
-```command
+```bash
 git reset --soft HEAD~1
 ```
 
@@ -24,19 +24,19 @@ The above command will reset back with 1 point.
 
 * Once you are done with the changes, run `git add` to add any of the files that you would like to be included in the next commit:
 
-```
+```bash
 git add .
 ```
 
 * Then use `git commit` as normal to commit your new changes:
 
-```
+```bash
 git commit -m "Your new commit message"
 ```
 
 * After that, you could again check your history by running:
 
-```
+```bash
 git log
 ```
 

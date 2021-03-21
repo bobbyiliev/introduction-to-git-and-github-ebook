@@ -2,7 +2,7 @@
 
 In order to list all of the previous commits, you can use the following command:
 
-```
+```bash
 git log
 ```
 
@@ -31,7 +31,7 @@ Rundown of the output:
 
 If you want to check the differences between the current state of your repository and a particular commit, what you could do is use the `git diff` command followed by the commit ID:
 
-```
+```bash
 git diff fa583473b4be2807b45f35b755aa84ac78922259
 ```
 
@@ -51,7 +51,7 @@ So the difference between that specific commit and the current state of the repo
 
 In case that you wanted to see only the commit IDs and commit messages on one line, you could add the `--oneline` argument:
 
-```
+```bash
 git log --oneline
 ```
 

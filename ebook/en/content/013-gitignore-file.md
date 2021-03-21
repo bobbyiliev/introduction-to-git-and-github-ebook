@@ -12,7 +12,7 @@ Let's have a look at the following example if you had a `PHP` project and a file
 
 In order to exclude that file from your git project, you could create a file called `.gitignore` inside your project's directory:
 
-```
+```bash
 touch .gitignore
 ```
 
@@ -199,7 +199,7 @@ If you are a fan of the command-line, the gitignore.io project offers a CLI vers
 
 To get it installed on Linux, just run the following command:
 
-```
+```bash
 git config --global alias.ignore \
 '!gi() { curl -sL https://www.toptal.com/developers/gitignore/api/$@ ;}; gi'
 ```
@@ -208,13 +208,13 @@ If you are using a different OS, I would recommend checking out the documentatio
 
 Once you have the `gi` command installed, you could list all of the available `.gitignore` files from gitignore.io by running the following command:
 
-```
+```bash
 gi list
 ```
 
 For example, if you quickly needed a `.gitignore` file for Laravel, you could just run:
 
-```
+```bash
 gi laravel
 ```
 

@@ -9,13 +9,13 @@ The steps that you would need to take to open a Pull Request are:
 * If you are working on an open-source project that you are not the maintainer of, first fork the repository as per chapter 21. Skip this step if you are the maintainer of the repository.
 * Then clone the repository locally with the `git clone` command:
 
-```
+```bash
 git clone git@github.com:your_user/your_repo
 ```
 
 * Create a new branch with the `git checkout` command:
 
-```
+```bash
 git checkout -b branch_name
 ```
 
@@ -23,19 +23,19 @@ git checkout -b branch_name
 
 * Stage the changes with `git add`
 
-```
+```bash
 git add .
 ```
 
 * And then commit them with `git commit`:
 
-```
+```bash
 git commit -m "Commit Message"
 ```
 
 * Then push your new branch to GitHub with `git push`:
 
-```
+```bash
 git push origin branch_name
 ```
 

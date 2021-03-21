@@ -28,7 +28,7 @@ hint: See the 'Note about fast-forwards' in 'git push --help' for details.
 
 As stated in the output, the remote repository is ahead of your local one, so you need to run the `git pull` command to get the latest changes:
 
-```
+```bash
 git pull origin main
 ```
 

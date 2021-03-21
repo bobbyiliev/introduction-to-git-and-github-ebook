@@ -8,19 +8,19 @@ Before you initialize a new git repository or start making commits, you should s
 
 In order to change the name that is associated with your commits, you can use the `git config` command:
 
-```
+```bash
 git config --global user.name "Your Name"
 ```
 
 The same would go for changing your email address associated with your commits as well:
 
-```
+```bash
 git config --global user.email "yourmail@example.com"
 ```
 
 That way, once you have the above configured when you make a commit and then check the git log, you will be able to see that the commit is associated with the details that you've configured above.
 
-```
+```bash
 git log
 ```
 
@@ -39,13 +39,13 @@ Date:   Fri Jun 19 17:03:53 2020 +0300
 
 To initialize a new local git project, open your git or bash terminal, `cd` to the directory that you would like your project to be stored at, and then run:
 
-```
+```bash
 git init .
 ```
 
 If you already have an existing project in GitHub, for example, you can clone it by using the git clone command:
 
-```
+```bash
 git clone your_project_url
 ```
 
@@ -53,7 +53,7 @@ git clone your_project_url
 
 In order to check the current status of your local git repository, you need to use the following command:
 
-```
+```bash
 git status
 ```
 
@@ -65,7 +65,7 @@ Let's say that you have a static HTML project, and you have already initialized 
 
 After that, at a later stage, you decide to add a new HTML file called `about-me.html`, then you've added some HTML code in there already. In order to add your new file so that it is also tracked in git, you first need to use the `git add` command:
 
-```
+```bash
 git add file_name
 ```
 
@@ -73,7 +73,7 @@ This will stage your new file, which essentially means that the next time you ma
 
 To check that, you can again run the `git status` command:
 
-```
+```bash
 git status
 ```
 
@@ -93,7 +93,7 @@ Changes to be committed:
 
 In order to remove a file from your git project, use the following command:
 
-```
+```bash
 git rm some_file.txt
 ```
 
@@ -113,7 +113,7 @@ Changes to be committed:
 
 In case that you've made a mistake and you want to discard the changes for a specific file and reset the content of that file as it was in the latest commit, you need to use the command below:
 
-```
+```bash
 git checkout -- file_name
 ```
 
@@ -125,7 +125,7 @@ Once you've made your changes and you've staged them with the `git add` command,
 
 To do so, you have to use the `git commit` command:
 
-```
+```bash
 git commit
 ```
 
@@ -133,7 +133,7 @@ This will open a text editor where you could type your commit message.
 
 Instead, you could use the `-m` flag to specify the commit message directly in your command:
 
-```
+```bash
 git commit -m "Nice commit message here"
 ```
 
@@ -141,7 +141,7 @@ git commit -m "Nice commit message here"
 
 In order to list all of the available local branches, just run the following command:
 
-```
+```bash
 git branch -a
 ```
 
@@ -165,7 +165,7 @@ If you are working together with a team of developers working on the same projec
 
 To do that, all you need to do is to use the `git pull` command:
 
-```
+```bash
 git pull origin branch_name
 ```
 
@@ -175,13 +175,13 @@ Note that this will also merge the new changes to the current branch that you ar
 
 To create a new branch, all you need to do is use the `git branch` command:
 
-```
+```bash
 git branch branch_name
 ```
 
 Instead of the above, I prefer using the following command as it creates a new branch and also switches you to the newly created branch:
 
-```
+```bash
 git checkout -b branch_name
 ```
 
@@ -193,19 +193,19 @@ Then finally, once you've made all of your changes, you've staged them with the 
 
 To do so, just use the `git push` command:
 
-```
+```bash
 git push origin branch_name
 ```
 
 ### Delete a branch
 
-```
+```bash
 git branch -d branch_name
 ```
 
 ### Switch to a new branch
 
-```
+```bash
 git checkout branch_name
 ```
 

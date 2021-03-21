@@ -4,13 +4,13 @@ By default, when you create a new file inside your Git project, it is not being 
 
 The syntax is the following:
 
-```
+```bash
 git add NAME_OF_FILE
 ```
 
 In our case, we have only 1 filed inside our project called `README.md`, so to add this file to Git, we can use the following command:
 
-```
+```bash
 git add README.md
 ```
 
@@ -26,7 +26,7 @@ Here you would see that there are now some changes staged and ready to be commit
 
 In case that you have a couple of files, you could list them all divided by space after the `git add` command to stage them all rather than running `git add` multiple times for each individual file:
 
-```
+```bash
 git add file1.html file2.html file3.html
 ```
 
@@ -34,7 +34,7 @@ With the above, we will add the 3 files by running `git add` just once, however 
 
 So there is a way to stage absolutely all files in your current project, and this is by specifying a dot after the `git add` command as follows:
 
-```
+```bash
 git add .
 ```
 

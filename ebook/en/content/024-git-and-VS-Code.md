@@ -26,7 +26,7 @@ You need to set your username and email in the Git configuration, or git will fa
 
 In order to set this, you can execute the following commands:
 
-```
+```bash
 git config --global user.name "John Doe"
 git config --global user.email "johnde@domain.com"
 ```
@@ -77,7 +77,8 @@ If you want to switch branches, you can open the command pallet and search for `
 If you want to speed up the process and have a predefined template for your commit messages, you can create a simple file that will contain this information.
 
 In order to do that, open your terminal if you're on Linux or macOS and create the following file: .gitmessage in your home directory. In order to create the file, you can open it in your favorite text editor and then simply put the default content you would like and then just save and exit the file. Example content is:
-```
+
+```bash
 cat ~/.gitmessage
 ```
 
@@ -91,7 +92,7 @@ cat ~/.gitmessage
 
 To tell Git to use it as the default message that appears in your editor when you run `git commit` and set the `commit.template` configuration value:
 
-```
+```bash
 $ git config --global commit.template ~/.gitmessage
 $ git commit
 ```

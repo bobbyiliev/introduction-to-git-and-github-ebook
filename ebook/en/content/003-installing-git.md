@@ -12,13 +12,13 @@ If this is not the case for you, you can install Git with the following command:
 
 * On RHEL Linux:
 
-```
+```bash
 sudo dnf install git-all
 ```
 
 * On Debian based distributions including Ubuntu:
 
-```
+```bash
 sudo apt install git-all
 ```
 
@@ -28,7 +28,7 @@ If you are using Mac, Git should be available out of the box as well. However, i
 
 * Using Homebrew: in case that you are using Homebrew, you can open your terminal and run the following:
 
-```
+```bash
 brew install git
 ```
 
@@ -50,13 +50,13 @@ During the installation, make sure to choose the Git Bash option, as this would 
 
 Once you have installed Git, in order to check the version of Git that you have installed on your machine, you could use the following command:
 
-```
+```bash
 git --version
 ```
 
 Example output:
 
-```
+```bash
 git version 2.25.1
 ```
 

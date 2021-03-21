@@ -6,7 +6,7 @@ Before you can push to your remote GitHub repository, you would need to first cr
 
 Once you have your remote GitHub repository ready, you can add it to your local project with the following command:
 
-```
+```bash
 git remote add origin git@github.com:your_username/your_repo_name.git
 ```
 
@@ -18,19 +18,19 @@ If you've read the previous chapter, you will most likely notice we are using SS
 
 If you did not follow the steps from the previous chapter, you could use HTTPS rather than SSH:
 
-```
+```bash
 git remote add origin https://github.com/your_username/your_repo_name.git
 ```
 
 In order to verify your remote repository, you could run the following command:
 
-```
+```bash
 git remote -v
 ```
 
 To do so, just use the `git push` command:
 
-```
+```bash
 git push origin main
 ```
 

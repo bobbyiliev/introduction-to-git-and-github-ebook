@@ -16,7 +16,7 @@ git@github.com:bobbyiliev/introduction-to-bash-scripting.git
 
 Once you have this in my clipboard, head back to your terminal, go to a directory where you would like to clone the repository to and then run the following command:
 
-```
+```bash
 git clone git@github.com:bobbyiliev/introduction-to-bash-scripting.git
 ```
 

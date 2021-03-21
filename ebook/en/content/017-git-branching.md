@@ -32,13 +32,13 @@ Next, let's go ahead and learn how to create new branches and see this in action
 
 Let's start by creating a new branch called `newFeature`. In order to create the branch, you could use the following command:
 
-```
+```bash
 git branch newFeature
 ```
 
 Now, in order to switch to that new branch, you would need to run the following command:
 
-```
+```bash
 git checkout newFeature
 ```
 
@@ -46,7 +46,7 @@ git checkout newFeature
 
 The above two commands could be combined into 1, so that you don't have to create the branch first and then switch to the new branch. You could use this command instead, which would do both:
 
-```
+```bash
 git checkout -b newFeature
 ```
 
@@ -58,7 +58,7 @@ Switched to a new branch 'newFeature'
 
 In order to check what branch you are currently on, you can use the following command:
 
-```
+```bash
 git branch
 ```
 
@@ -73,7 +73,7 @@ We can tell that we have 2 branches: the `main` one and the `newFeature` one tha
 
 If you were to use the `git checkout` command to switch to the `main` branch:
 
-```
+```bash
 git checkout main
 ```
 
@@ -88,7 +88,7 @@ And then run `git branch` again. You will see the following output indicating th
 
 Now let's go ahead and make a change on the new feature branch. First switch to the branch with the `git checkout` command:
 
-```
+```bash
 git checkout newFeature
 ```
 
@@ -96,7 +96,7 @@ git checkout newFeature
 
 Check that you've actually switched to the correct branch:
 
-```
+```bash
 git branch
 ```
 
@@ -109,7 +109,7 @@ Output:
 
 Now let's create a new file with some demo content. You can do that with the following command:
 
-```
+```bash
 echo "<h1>My First Feature Branch</h1>" > feature1.html
 ```
 
@@ -117,7 +117,7 @@ The above will echo out the `<h1>My First Feature Branch</h1>` string and store 
 
 After that, stage the file and commit the change:
 
-```
+```bash
 git add feature1.html
 git commit -m "Add feature1.html"
 ```
@@ -126,7 +126,7 @@ The new `feature1.html` file will only be present on the `newFeature` branch. If
 
 You can check that by using the `git log` command:
 
-```
+```bash
 git log
 ```
 
@@ -136,13 +136,13 @@ With that, we've used quite a bit of the commands that we've covered in the prev
 
 In case that you've created a branch with a wrong name or if you think that the name could be improved as it is not descriptive enough, you can rename a branch by running the following command:
 
-```
+```bash
 git branch -m wrong-branch-name correct-branch-name
 ```
 
 If you want to rename your **current branch**, you could just run the following:
 
-```
+```bash
 git branch -m my-branch-name
 ```
 
@@ -152,19 +152,19 @@ After that, if you run `git branch` again you will be able to see the correct br
 
 If you wanted to completely delete a specific branch you could run the following command:
 
-```
+```bash
 git branch -d name_of_the_branch
 ```
 
 This would only delete the branch from your local repository, in case that you've already pushed the branch to GitHub, you can use the following command to delete the remote branch:
 
-```
+```bash
 git push origin --delete name_of_the_branch
 ```
 
 If you wanted to synchronize your local branches with the remote branches you could run the following command:
 
-```
+```bash
 git fetch
 ```
 

@@ -8,7 +8,7 @@ So before we get started, let's go over a few basic shell commands!
 
 The `ls` command allows you to list the contents of a folder/directory. All that you need to do in order to run the command is to open a terminal and run the following:
 
-```
+```bash
 ls
 ```
 
@@ -26,7 +26,7 @@ For more information about the `ls` command, make sure to check out this page [h
 
 The `cd` command stands for `Change Directory` and allows you to navigate through the filesystem of your computer or server. Let's say that I wanted to go inside the `ebook` directory from the output above. What I would need to do is to run the `cd` command followed by the directory that I want to access:
 
-```
+```bash
 cd ebook
 ```
 
@@ -38,7 +38,7 @@ The `pwd` command stands for `Print Working Directory` which essentially means t
 
 Let's take the example from above. If I run the `pwd` command, I would get the full path to the folder that I'm currently in:
 
-```
+```bash
 pwd
 ```
 
@@ -50,7 +50,7 @@ Output:
 
 Then I could use the `cd` command and access the `ebook` directory:
 
-```
+```bash
 cd ebook
 ```
 
@@ -66,13 +66,13 @@ Essentially what happened was that thanks to the `pwd` command, I was able to se
 
 The `rm` command stands for `remove` and allows you to delete files and folders. Let's say that I wanted to delete the `README.md` file, what I would have to do is run the following command:
 
-```
+```bash
 rm README.md
 ```
 
 In case that I had to delete a folder/directory, I would need to specify the `-r` flag:
 
-```
+```bash
 rm -r ebook
 ```
 

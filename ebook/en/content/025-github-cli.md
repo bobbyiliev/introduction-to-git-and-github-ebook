@@ -10,7 +10,7 @@ In this tutorial, I will give a quick overview of how to install `gh` and how to
 
 As I will be using Ubuntu, to install `gh` you need to run the following commands:
 
-```
+```bash
 sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-key C99B11DEB97541F0
 sudo apt-add-repository https://cli.github.com/packages
 sudo apt update
@@ -19,7 +19,7 @@ sudo apt install gh
 
 If you are on a Mac, you can install `gh` using Homebrew:
 
-```
+```bash
 brew install gh
 ```
 
@@ -27,7 +27,7 @@ For any other operating systems, I recommend following the steps from the offici
 
 Once you have `gh` installed, you can verify that it works with the following command:
 
-```
+```bash
 gh --version
 ```
 
@@ -46,7 +46,7 @@ Once you have `gh` installed, you need to login to your GitHub account.
 
 To do so, you need to run the following command:
 
-```
+```bash
 gh auth login
 ```
 
@@ -103,7 +103,7 @@ FEEDBACK
 
 Then let's clone an existing project which we will use to play with. As an example, we can use the [LaraSail](https://github.com/thedevdojo/larasail) repository. Rather than cloning the repository using the standard `git clone` command, we will use `gh` to do so:
 
-```
+```bash
 gh repo clone thedevdojo/larasail
 ```
 
@@ -115,7 +115,7 @@ Cloning into 'larasail'...
 
 After that `cd` into that folder:
 
-```
+```bash
 cd larasail
 ```
 
@@ -131,7 +131,7 @@ Here's a list of some useful commands:
 
 To list all open issues, run:
 
-```
+```bash
 gh issue list
 ```
 
@@ -148,13 +148,13 @@ Showing 4 of 4 open issues in thedevdojo/larasail
 
 You can even create a new issue with the following command:
 
-```
+```bash
 gh issue create --label bug
 ```
 
 Or if you wanted to view an existing issue, you could just run:
 
-```
+```bash
 gh issue view '#25'
 ```
 
@@ -179,7 +179,7 @@ View this issue on GitHub: https://github.com/thedevdojo/larasail/issues/25
 
 You can use the `gh repo` command to create, clone or view an existing repository:
 
-```
+```bash
 gh repo create
 gh repo clone cli/cli
 gh repo view --web

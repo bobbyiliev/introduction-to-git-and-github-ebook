@@ -12,13 +12,13 @@ You can do that by following these steps:
 
 * First switch to your `main` branch:
 
-```
+```bash
 git checkout main
 ```
 
 * After that, in order to merge your `newFeature` branch and the changes that we created in the last chapter, run the following `git merge` command:
 
-```
+```bash
 git merge newFeature
 ```
 
@@ -38,7 +38,7 @@ Now, if you run the `ls` command, you will be able to see the new `feature1.html
 
 Before doing the merge, you could again use the `git diff` command to check the differences between your current branch and the branch that you want to merge. For example, if you are currently on the `main` branch, you could use the following:
 
-```
+```bash
 git diff newFeature
 ```
 
@@ -48,19 +48,19 @@ In this case, the merge went through smoothly as there were no merge conflicts. 
 
 Let's simulate a conflict. To do so, create a new branch:
 
-```
+```bash
 git checkout -b conflictDemo
 ```
 
 Then edit the `feature1.html` file:
 
-```
+```bash
 echo "<p>Conflict Demo</p>" >> feature1.html
 ```
 
 The command above will echo out the `<p>Conflict Demo</p>` string, and thanks to the double grater sign `>>`, the string will be added to the bottom of the `feature1.html` file. You can check the content of the file with the `cat` command:
 
-```
+```bash
 cat feature1.html
 ```
 
@@ -75,7 +75,7 @@ You can again run `git status` and `git diff` to check what exactly has been mod
 
 After that, go ahead and commit the change:
 
-```
+```bash
 git commit -am "Conflict Demo 1"
 ```
 
@@ -83,7 +83,7 @@ Note that we did not run the `git add` command, but instead, we used the `-a` fl
 
 Now go switch back to your `main` branch:
 
-```
+```bash
 git checkout main
 ```
 
@@ -91,7 +91,7 @@ And now, if you check the `feature1.html` file, it will only have the `<h1>My Fi
 
 Now let's go ahead and make a change to the same file:
 
-```
+```bash
 echo "<p>Conflict: change on main branch</p>" >> feature1.html
 ```
 
@@ -99,13 +99,13 @@ Now we are adding again a line to the bottom of the `feature1.html` file with di
 
 Go ahead and stage this and commit the change:
 
-```
+```bash
 git commit -am "Conflict on main"
 ```
 
 Now your `main` branch and the `conflictDemo` branch have changes to the same file, on the same line. So let's run the `git merge` command and see what happens:
 
-```
+```bash
 git merge conflictDemo
 ```
 
@@ -149,7 +149,7 @@ In case that you are using an IDE like VS Code, for example, it will allow you t
 
 After resolving the conflict, you will need to make another commit as the conflict is now resolved:
 
-```
+```bash
 git commit -am "Reslove merge conflict"
 ```
 

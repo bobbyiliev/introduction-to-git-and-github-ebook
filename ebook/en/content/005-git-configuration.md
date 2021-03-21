@@ -18,13 +18,13 @@ In order to configure your Git details like your user name and your email addres
 
 * Configuring your Git user name:
 
-```
+```bash
 git config --global user.name "Your Name"
 ```
 
 * Configuring your Git email address:
 
-```
+```bash
 git config --global user.email johndoe@example.com
 ```
 
@@ -34,7 +34,7 @@ git config --global user.email johndoe@example.com
 
 In some cases, when running Git commands via your terminal, an editor will open where you could type a commit message, for example. To specify your default editor, you need to run the following command:
 
-```
+```bash
 git config --global core.editor nano
 ```
 
@@ -44,13 +44,13 @@ You can change the `nano` editor with another editor like `vim` or `emacs` based
 
 Whenever creating a new repository on your local machine, it gets initialized with a specific branch name which might be different from the default branch on GitHub. To make sure that the branch name on your local machine matches the default branch name on GitHub, you can use the following command:
 
-```
+```bash
 git config --global init.defaultBranch main
 ```
 
 Finally, once you are done with all changes, you can check your current Git configuration with the following command:
 
-```
+```bash
 git config --list
 ```
 
@@ -71,7 +71,7 @@ As we used the `--global` command, all of those Global Git settings would be sto
 
 We can use the `cat` command to check the content of the file:
 
-```
+```bash
 cat ~/.gitconfig
 ```
 
@@ -91,7 +91,7 @@ Whenever you initialize a new project or clone one from GitHub, it would have a 
 
 You could use the `ls` command to check the contents of the `.git` folder:
 
-```
+```bash
 ls .git
 ```
 

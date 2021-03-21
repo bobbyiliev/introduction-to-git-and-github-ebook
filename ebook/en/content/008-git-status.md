@@ -14,7 +14,7 @@ nothing to commit (create/copy files and use "git add" to track)
 
 As this is a fresh new repository, there are no commits and no changes yet. So let's go ahead and create a `README.md` file with some generic content. We can run the following command to do so:
 
-```
+```bash
 echo "# Demo Project" >> README.md
 ```
 

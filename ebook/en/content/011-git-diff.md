@@ -26,13 +26,13 @@ Next, let's go ahead and stage that change and commit it with the comments that 
 
 * Stage the changed file:
 
-```
+```bash
 git add README.md
 ```
 
 * Then again run `git status` to check the current status:
 
-```
+```bash
 git status
 ```
 
@@ -47,7 +47,7 @@ Changes to be committed:
 
 * Commit the changes:
 
-```
+```bash
 git commit -m "Update README.md"
 ```
 

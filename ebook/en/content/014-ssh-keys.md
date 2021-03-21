@@ -20,7 +20,7 @@ Note that when you choose SSH, the `https://` part is changed with `git@`, and y
 
 In order to generate a new SSH key pair in case that you don't have one, you can run the following command:
 
-```
+```bash
 ssh-keygen
 ```
 
@@ -39,13 +39,13 @@ The two files will be automatically generated at the following folder:
 
 You can use the `cd` command to access the folder:
 
-```
+```bash
 cd ~/.ssh
 ```
 
 Then with `ls` you can check the content:
 
-```
+```bash
 ls
 ```
 
@@ -65,7 +65,7 @@ Once you've created your SSH keys, you need to upload the **public** SSH key to 
 
 To get the content of the file, you can use the `cat` command:
 
-```
+```bash
 cat ~/.ssh/id_rsa.pub
 ```
 

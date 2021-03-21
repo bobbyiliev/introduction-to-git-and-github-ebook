@@ -10,7 +10,7 @@ Changes to be committed:
 
 In this case, it is only the `README.md` file that will be committed. So in order to do so, we can run the following command:
 
-```
+```bash
 git commit -m "Your Commit Message Here"
 ```
 
@@ -26,7 +26,7 @@ If you don't specify the `-m` flag, Git will open the default text editor that w
 
 After running the `git commit` command, we can use the `git status` command again to check the current status:
 
-```
+```bash
 git status
 ```
 
@@ -41,7 +41,7 @@ As you can see, Git is telling us that there are no changes to be committed as w
 
 Let's go ahead and make another change to the `README.md` file. You can open the file with your favorite text editor and make the change directly, or you can run the following command:
 
-```
+```bash
 echo "Git is awesome!" >> README.md
 ```
 

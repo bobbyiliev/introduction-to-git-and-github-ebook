@@ -26,8 +26,6 @@ To download a copy of the ebook use one of the following links:
 
 ## 📘 Chapters
 
-The first 13 chapters would be purely focused on getting some solid Bash scripting foundations then the rest of the chapters would give you some real life examples and scripts.
-
 * **About the book**
 * **Introduction to Git**
 * **Version Control**

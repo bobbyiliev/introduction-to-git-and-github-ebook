@@ -89,7 +89,7 @@ For more information, please visit [https://www.devdojo.com](https://www.devdojo
 
 A web page showcasing the eBook:
 
-[Coming Soon](#)
+[Introduction to Git and GitHub website](https://git.bobby.sh)
 
 The web page was built using [Tails](http://devdojo.com/tails), a new `kick-ass` drag-and-drop TailwindCSS page builder!
 
@@ -109,7 +109,7 @@ Coming soon
 
 You can follow the interactive training online here:
 
-[Coming soon](#)
+[Interactive Git training](https://git.bobby.sh/training.html)
 
 The training was built with Katacoda. You can find the Katacoda repository [here](https://github.com/bobbyiliev/katacoda).
 

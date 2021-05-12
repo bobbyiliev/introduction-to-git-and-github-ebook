@@ -101,7 +101,9 @@ We will utilize the ["Deploy to DigitalOcean" Button](https://www.digitalocean.c
 
 ## 📹 Mini Video Course
 
-Coming soon
+If you prefer watching videos rather than reading, you can find a quick crash course based on the the eBook here:
+
+**[Introduction to Git and GitHub Mini Video Crash Course](https://www.youtube.com/watch?v=UpdhourKi3c&list=PLY7SzAmnEqp7P6KHmBKBVNIjZkXMKh_fn)**
 
 ## 💻 Interactive training
 

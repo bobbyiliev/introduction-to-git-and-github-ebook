@@ -154,6 +154,7 @@ If you ever need to create a graphic, poster, invitation, logo, presentation –
 ## 📖 Other books
 
 - [Introduction to Bash Scripting eBook](https://github.com/bobbyiliev/introduction-to-bash-scripting)
+- [Introduction to SQL](https://github.com/bobbyiliev/introduction-to-sql)
 
 ## 🤲 Contributing
 

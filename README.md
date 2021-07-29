@@ -151,10 +151,11 @@ If you ever need to create a graphic, poster, invitation, logo, presentation –
 - [Tails](http://devdojo.com/tails)
 - [Katacoda](https://www.katacoda.com/)
 
-## 📖 Other books
+## 📖 Other eBooks
 
 - [Introduction to Bash Scripting eBook](https://github.com/bobbyiliev/introduction-to-bash-scripting)
 - [Introduction to SQL](https://github.com/bobbyiliev/introduction-to-sql)
+- [Laravel tips and tricks](https://github.com/bobbyiliev/laravel-tips-and-tricks-ebook)
 
 ## 🤲 Contributing
 

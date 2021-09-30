@@ -20,40 +20,40 @@ The guide is suitable for anyone working as a developer, system administrator, o
 
 To download a copy of the ebook use one of the following links:
 
-* [Dark mode](https://github.com/bobbyiliev/introduction-to-git-and-github-ebook/raw/main/ebook/en/export/introduction-to-git-and-github-dark.pdf)
+* [**Dark mode**](https://github.com/bobbyiliev/introduction-to-git-and-github-ebook/raw/main/ebook/en/export/introduction-to-git-and-github-dark.pdf)
 
-* [Light mode](https://github.com/bobbyiliev/introduction-to-git-and-github-ebook/raw/main/ebook/en/export/introduction-to-git-and-github-light.pdf)
+* [**Light mode**](https://github.com/bobbyiliev/introduction-to-git-and-github-ebook/raw/main/ebook/en/export/introduction-to-git-and-github-light.pdf)
 
 ## 📘 Chapters
 
-* **About the book**
-* **Introduction to Git**
-* **Version Control**
-* **Installing Git**
-* **Basic Shell Commands**
-* **Git Configuration**
-* **Introduction to GitHub**
-* **Initializing a Git project**
-* **Git Status**
-* **Git Add**
-* **Git Commit**
-* **Git Diff**
-* **Git Log**
-* **Gitignore**
-* **SSH Keys**
-* **Git Push**
-* **Git Pull**
-* **Git Branches**
-* **Git Merge**
-* **Reverting changes**
-* **Git Clone**
-* **Forking in Git**
-* **Git Workflow**
-* **Pull Requests**
-* **Git And VS Code**
-* **GitHub CLI**
-* **Git Cheat Sheet**
-* **Conclusion**
+* [**About the book**](ebook/en/content/000-introduction.md)
+* [**Introduction to Git**](ebook/en/content/001-introduction-to-git.md)
+* [**Version Control**](ebook/en/content/002-version-control.md)
+* [**Installing Git**](ebook/en/content/003-installing-git.md)
+* [**Basic Shell Commands**](ebook/en/content/004-basic-shell-commands.md)
+* [**Git Configuration**](ebook/en/content/005-git-configuration.md)
+* [**Introduction to GitHub**](ebook/en/content/006-introduction-to-GitHub.md)
+* [**Initializing a Git project**](ebook/en/content/007-initializing-a-project.md)
+* [**Git Status**](ebook/en/content/008-git-status.md)
+* [**Git Add**](ebook/en/content/009-git-add.md)
+* [**Git Commit**](ebook/en/content/010-git-commit.md)
+* [**Git Diff**](ebook/en/content/011-git-diff.md)
+* [**Git Log**](ebook/en/content/012-git-log.md)
+* [**Gitignore**](ebook/en/content/013-gitignore-file.md)
+* [**SSH Keys**](ebook/en/content/014-ssh-keys.md)
+* [**Git Push**](ebook/en/content/015-git-push.md)
+* [**Git Pull**](ebook/en/content/016-git-pull.md)
+* [**Git Branches**](ebook/en/content/017-git-branching.md)
+* [**Git Merge**](ebook/en/content/018-git-merge.md)
+* [**Reverting changes**](ebook/en/content/019-undoing-in-git.md)
+* [**Git Clone**](ebook/en/content/020-git-clone.md)
+* [**Forking in Git**](ebook/en/content/021-forking-in-git.md)
+* [**Git Workflow**](ebook/en/content/022-git-workflow.md)
+* [**Pull Requests**](ebook/en/content/023-pull-requests.md)
+* [**Git And VS Code**](ebook/en/content/024-git-and-VS-Code.md)
+* [**GitHub CLI**](ebook/en/content/025-github-cli.md)
+* [**Git Cheat Sheet**](ebook/en/content/998-git-commands-cheat-sheet.md)
+* [**Conclusion**](ebook/en/content/999-conclusion.md)
 
 ## 🌟 Sponsors
 

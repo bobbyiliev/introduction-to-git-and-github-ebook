@@ -1,6 +1,6 @@
 # About the book
 
-* **This version was published on March 20 2021**
+* **This version was published on October 1 2021**
 
 This is an open-source introduction to Git and GitHub guide that will help you learn the basics of version control and start using Git for your SysOps, DevOps, and Dev projects. No matter if you are a DevOps/SysOps engineer, developer, or just a Linux enthusiast, you can use Git to track your code changes and collaborate with other members of your team or open source maintainers.
 

@@ -8,5 +8,5 @@ The main benefit of version control is that multiple people could work on the sa
 
 With distributed version control systems like Git, you would have your source code stored on a remote repository like GitHub and also a local repository stored on your computer.
 
-You will learn more about remote and local repositories in the next few chapters. Still, one of the main points for the moment is that your source code would be sored on a remote repository, so in case that something goes wrong with your laptop, you would not lose all of your changes, but they will be safely stored on GitHub.
+You will learn more about remote and local repositories in the next few chapters. Still, one of the main points for the moment is that your source code would be stored on a remote repository, so in case that something goes wrong with your laptop, you would not lose all of your changes, but they will be safely stored on GitHub.
 

@@ -150,7 +150,7 @@ In case that you are using an IDE like VS Code, for example, it will allow you t
 After resolving the conflict, you will need to make another commit as the conflict is now resolved:
 
 ```bash
-git commit -am "Reslove merge conflict"
+git commit -am "Resolve merge conflict"
 ```
 
 ### Conclusion

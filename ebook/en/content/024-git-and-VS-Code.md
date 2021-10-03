@@ -110,5 +110,5 @@ If you prefer to code in Visual Studio Code and you also use version control, I 
 
 Source:
 
-* Contribured by: [Alex Georgiev](https://twitter.com/AlexGeorgiev17).
+* Contributed by: [Alex Georgiev](https://twitter.com/AlexGeorgiev17).
 * Initially posted [here](https://devdojo.com/alexg/version-control-with-visual-studio-code-1).

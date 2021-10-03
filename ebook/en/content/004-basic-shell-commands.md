@@ -60,7 +60,7 @@ And finally, if I was to run the `pwd` command again, I would see the following 
 /home/bobby/introduction-to-git/ebook
 ```
 
-Essentially what happened was that thanks to the `pwd` command, I was able to see that I'm at the `/home/bobby/introduction-to-git` direcotry and then after accessing the `ebook` directory, again by using `pwd` I was able to see that my new current directory is `/home/bobby/introduction-to-git/ebook`.
+Essentially what happened was that thanks to the `pwd` command, I was able to see that I'm at the `/home/bobby/introduction-to-git` directory and then after accessing the `ebook` directory, again by using `pwd` I was able to see that my new current directory is `/home/bobby/introduction-to-git/ebook`.
 
 ### The `rm` command
 

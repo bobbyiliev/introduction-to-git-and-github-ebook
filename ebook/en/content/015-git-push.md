@@ -31,7 +31,13 @@ git remote -v
 To do so, just use the `git push` command:
 
 ```bash
-git push origin main
+git push -u origin main
+```
+
+Or For just use `git push` set upstream means you don't need to use full command everytime. 
+
+```bash
+git push --set-upstream origin main
 ```
 
 If you are using SSH with your SSH key uploaded to GitHub, the push command will not ask you for a password, but it would push your changes to GitHub straight away.

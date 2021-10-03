@@ -12,8 +12,12 @@ The steps that you would need to take to open a Pull Request are:
 ```bash
 git clone git@github.com:your_user/your_repo
 ```
+or 
+```bash
+git clone https://github.com/your_user/your_repo.git
+```
 
-* Create a new branch with the `git checkout` command:
+* (Optional) Create a new branch with the `git checkout` command:
 
 ```bash
 git checkout -b branch_name

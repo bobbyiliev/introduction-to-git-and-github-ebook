@@ -67,7 +67,7 @@ core.logallrefupdates=true
 
 ### The `~/.gitconfig` file
 
-As we used the `--global` command, all of those Global Git settings would be stored in a .gitconfig` file inside your home directory.
+As we used the `--global` option in our commands, all of those Global Git settings would be stored in a .gitconfig` file inside your home directory.
 
 We can use the `cat` command to check the content of the file:
 
@@ -84,6 +84,11 @@ Example output:
 ```
 
 You can even change the file manually with your favorite text editor, but I personally prefer to use the `git config` command to prevent any syntax problems.
+
+### Repository specific git configurations
+
+So far we have been using the `--global` option with all of our changes to our git configurations and this results in any configuration changes applying to all repositories. You might however want to change the configuration for only one specific repository. 
+You can do this easily by running the same git config commands mentioned earlier but with out the `--global` option. This will save the changes for only the respository you are crrently in and leave your global settings the same as they were before. 
 
 ### The `.git` directory
 

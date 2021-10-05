@@ -24,6 +24,14 @@ In our case we could set our commit message to something like `"Initial commit"`
 
 If you don't specify the `-m` flag, Git will open the default text editor that we've configured in chapter 5 where you will be able to type the commit message directly.
 
+Committing directly without staging files:
+
+If you have not already staged your changes using `git add` command you can still directly commit all your changes using the following command.
+```
+git commit -a -m "Your Commit Message Here"
+```
+The `-a` flag here will automatically stage all the changes and commit them.
+
 ## Signing Commits
 Git allows you to sign your commits. Commits signed with a verified signature in GitHub and GitLab display a verified label as shown below.
 ![GitHub Signed Commits](https://imgur.com/OvY20rM.png)

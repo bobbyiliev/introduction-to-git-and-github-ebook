@@ -39,6 +39,18 @@ So in order to ignore the `vendors` and `node_modules` folders, you could just a
 /vendor/
 node_modules/
 ```
+### Ignoring a whole directory except for a specific file
+
+Sometimes, you want to ignore a directory except for one or a couple of other files within that directory. It could be that the directory is required for your application to run but the files created is not supposed to be pushed to the remote repository or maybe you want to have a `README.md` file inside the directory for some purpose. In order to achieve this, your `.gitignore` file should like like this:
+
+```
+data/*
+!data/README.md
+```
+
+The first line indicates that you want to ignore the `data` directory and all files inside it. However, the second line provides the instruction that the `README.md` is an exception.
+
+Take note that the ordering is important in this case. Otherwise, it will not work.
 
 ### Getting a gitignore file for Laravel
 

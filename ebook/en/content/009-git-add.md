@@ -30,7 +30,7 @@ In case that you have a couple of files, you could list them all divided by spac
 git add file1.html file2.html file3.html
 ```
 
-With the above, we will add the 3 files by running `git add` just once, however in some cases, you might have a lot of new files, and adding them one by one could be very time-consuming. 
+With the above, we will add the 3 files by running `git add` just once, however in some cases, you might have a lot of new files, and adding them one by one could be highly time-consuming. 
 
 So there is a way to stage absolutely all files in your current project, and this is by specifying a dot after the `git add` command as follows:
 

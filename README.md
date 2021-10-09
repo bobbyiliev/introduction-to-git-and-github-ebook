@@ -18,7 +18,7 @@ The guide is suitable for anyone working as a developer, system administrator, o
 
 ## 🚀 Download
 
-To download a copy of the ebook use one of the following links:
+To download a copy of the eBook use one of the following links:
 
 * [**Dark mode**](https://github.com/bobbyiliev/introduction-to-git-and-github-ebook/raw/main/ebook/en/export/introduction-to-git-and-github-dark.pdf)
 
@@ -102,7 +102,7 @@ We will utilize the ["Deploy to DigitalOcean" Button](https://www.digitalocean.c
 
 ## 📹 Mini Video Course
 
-If you prefer watching videos rather than reading, you can find a quick crash course based on the the eBook here:
+If you prefer watching videos rather than reading, you can find a quick crash course based on the eBook here:
 
 **[Introduction to Git and GitHub Mini Video Crash Course](https://www.youtube.com/watch?v=UpdhourKi3c&list=PLY7SzAmnEqp7P6KHmBKBVNIjZkXMKh_fn)**
 
@@ -134,11 +134,11 @@ In case that you want to support me you can Buy Me a Coffee here:
 
 The project uses [Ibis](https://github.com/themsaid/ibis/) developed by [Mohamed Said](https://github.com/themsaid).
 
-Ibis is a PHP tool that helps you write eBooks in markdown.
+Ibis is a PHP tool that helps you write eBooks in Markdown.
 
 ## 🎨 Book Cover
 
-The cover for this ebook was created with [Canva.com](https://www.canva.com/join/determined-cork-learn).
+The cover for this eBook was created with [Canva.com](https://www.canva.com/join/determined-cork-learn).
 
 If you ever need to create a graphic, poster, invitation, logo, presentation – or anything that looks good — give Canva a go.
 

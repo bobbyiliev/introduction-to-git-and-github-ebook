@@ -10,7 +10,7 @@ If what you just read doesn't make any sense to you, don't worry. Everything wil
 
 This eBook will show you the basics of how to start using Git and try to help you get more comfortable with it. 
 
-It does look a bit scary in the beginning, but don't worry. It's not as frightening as it seems, and positively, after reading this eBook, you can get a bit more comfortable with Git.
+It does look a bit scary in the beginning, but don't worry. It's not as frightening as it seems, and hopefully, after reading this eBook, you can get a bit more comfortable with Git.
 
 Learning Git is essential for every programmer. Even some of the biggest companies use GitHub for their projects. Remember that the more you use it, the more you're going to get used to it.
 

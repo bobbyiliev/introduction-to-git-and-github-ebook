@@ -83,7 +83,7 @@ Example output:
         email = bobby@bobbyiliev.com
 ```
 
-You can even change the file manually with your favorite text editor, but I prefer to use the `git config` command to prevent any syntax problems.
+You can even change the file manually with your favorite text editor, but I personally prefer to use the `git config` command to prevent any syntax problems.
 
 ### Repository specific git configurations
 

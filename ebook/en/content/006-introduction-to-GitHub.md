@@ -64,6 +64,6 @@ And it is crucial that your project is properly introduced. Because if the proje
 
 That's why having a good README file shouldn't be overlooked, and you should spend a considerable amount of your time on it.
 
-In this post, I am going to share some tips with you about how you can improve your README file, and positively, it can help you with your repositories.
+In this post, I am going to share some tips with you about how you can improve your README file, and hopefully, it can help you with your repositories.
 
 For more information, make sure to check out this post on [how to write a good README.md file](https://devdojo.com/bobbyiliev/quick-tips-for-writing-a-good-readme-file).

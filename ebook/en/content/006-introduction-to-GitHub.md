@@ -8,7 +8,7 @@ This is essentially needed as it would act as a central hub where you would stor
 
 ### GitHub Registration
 
-Before you get started, you'll need to create an account with GitHub. You can do so via this link here:
+Before you get started, you would need to create an account with GitHub. You can do so via this link here:
 
 * [Join GitHub](https://github.com/join)
 

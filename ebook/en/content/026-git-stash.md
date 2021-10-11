@@ -50,7 +50,7 @@ Consider the following example:
 
 ![git-stash-apply](https://user-images.githubusercontent.com/42696800/136791882-c43f5805-354c-47f1-8866-959d519a932e.png)
 
-This covers the most popular use case for the git stash command.
+This covers the most common use case for the git stash command.
 
 You can check out [this resource](https://www.atlassian.com/git/tutorials/saving-changes/git-stash) to take a look at some more advanced use cases.
 

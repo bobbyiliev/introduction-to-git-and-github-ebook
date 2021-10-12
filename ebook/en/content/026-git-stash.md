@@ -1,57 +1,81 @@
 # Git Stash
 
-`git stash` temporarily shelves (or stashes) changes you've made to your working copy so you can work on something else, and then come back and re-apply them later on.
+`git stash` is a handy command that helps you in cases where you might need to stash away your local changes, and reset your codebase to the mose recent commit in order to work on a more urgent bug/feature.
 
-Stashing is handy if you need to quickly switch context and work on something else, but you're mid-way through a code change and aren't quite ready to commit. The command saves your local modifications away and reverts the working directory to match the `HEAD` commit.
+In other words, this command allows you to revert your current working directory to match the `HEAD` commit, while keeping all the local modifications safe.
 
-The modifications stashed away by this command can be listed with `git stash list`, inspected with `git stash show`, and restored (potentially on top of a different commit) with `git stash apply`.
+Once you are ready to get back to working on the code you had stashed away, just restore them with a single command!
 
-<h2> Stashing your work </h2>
+## Stashing Your Work
 
 ```bash
 git stash
 ```
 
-The git stash command takes your uncommitted changes (both staged and unstaged), saves them away for later use, and then reverts them from your working copy.
-
-For example, consider a file named `index.html`, which has been modified since the last commit.
+For example, consider a file named `index.html` which has been modified since the last commit.
 
 ![git-stash-example](https://user-images.githubusercontent.com/42696800/136789285-ca33c54c-7f58-465a-a6c8-49d2d541a422.png)
 
-Note that by stashing all the local changes, the file has been restored to the version found in the most previous commit.
+Notice that the running `git status` command says that there are no new changes once the `git stash` command is executed!
 
-By default, running git stash will stash:
+Here WIP stands for Work-In-Progess and these are used to index the various stashed copies of your work.
 
--   changes that have been added to your index (staged changes)
--   changes made to files that are currently tracked by Git (unstaged changes)
+An important thing to keep in mind before stashing all new changes is that, by dafault, `git stash` **will not stash all the untracked and ignored files.** (Here, _untracked files_ are the files which weren't part of the last commit i.e, new files in your local repo)
 
-But it will not stash:
+In case you want to include these untracked files in the stash, you'll need to add the **-u** option.
 
--   new files in your working copy that have not yet been staged
--   files that have been ignored
+```bash
+git stash -u
+```
 
-In case you want to stash the **untracked files** as well, then consider **adding the -u option** (or --include-untracked) tells git stash to also stash your untracked files.
+Similarly, all the files in the `.gitignore` file (i.e, _the ignored files_) will also be excluded from your stash. But you can include them by using the **-a option**
 
-You can include changes to **ignored files** as well by **passing the -a option** (or --all) when running git stash.
+```bash
+git stash -a
+```
 
-The following image shows the behaviour of git stash
+The following illustrations depicts the behaviour of the `git stash` command when the above two options are included:
 
-![git-stash-options](https://user-images.githubusercontent.com/42696800/136792711-c0fabb73-8083-4c8a-b66d-1689037b5e3c.png)
+![git-stash-options](https://user-images.githubusercontent.com/42696800/136953468-8bbcbc7e-54e3-4927-b3e7-9ebd96db0fe2.png)
 
-<h2>Re-applying your stashed changes</h2>
+## Restoring the Stashed Changes
 
 ```bash
 git stash apply
 ```
 
-You reapply the changes to your working copy and keep them in your stash with `git stash apply`. Alternatively, we can also use the `git stash pop` command. Popping your stash removes the changes from your stash and reapplies them to your working copy.
+This command is used to reapply all the local modifications done before that copy of the work was stashed.
 
-Consider the following example:
+Note that another command that can be used to achieve this is the `git stash pop` command. Here _popping_ refers to the process of removing the most recent stash content and reapplying them to your working copy.
+
+The difference between these two commands is that the `git stash pop` command **will remove these particular changes from the stash** whereas the `git stash apply` command **will retain those changes in the stash** even after restoring them.
+
+Consider the previous example itself, in which the file `index.html` was stashed. In the following image you can see how restoring all those changes affects your local repo.
 
 ![git-stash-apply](https://user-images.githubusercontent.com/42696800/136791882-c43f5805-354c-47f1-8866-959d519a932e.png)
 
-This covers the most common use case for the git stash command.
+But what if you have multiple stashes and aren't sure which one you want to start working on? This is where the next command comes into picture!
 
-You can check out [this resource](https://www.atlassian.com/git/tutorials/saving-changes/git-stash) to take a look at some more advanced use cases.
+## Handling Multiple Stashed Copies of Your Work
 
-To see the official documentation for the command, you can go through this [git-scm page](https://git-scm.com/docs/git-stash).
+Similar to the process involved in resetting the local repository to a particular commit, the first step involved in handling multiple stashes is to **take a look at the various stashes available**.
+
+```bash
+git stash list
+```
+
+This command shows an indexed list of all the available stashes along with a **message correponding to their respective recent commits**.
+
+Consider the following example wherein there are two available stashes. One, when a new script file was added and another when this script file was altered.
+
+![git-stash-2](https://user-images.githubusercontent.com/42696800/136959951-cee9e074-7132-4b3b-82fb-9ac28c80cce7.png)
+
+Note that the most recent stash is always indexed as 0.
+
+Once you know which stash you want to restore to your local codebase to, the command used to restore those modifications is:
+
+```bash
+git stash apply n
+```
+
+Where **n** is the index of the stash you want to restore.

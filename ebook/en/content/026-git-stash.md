@@ -78,4 +78,10 @@ Once you know which stash you want to restore to your local codebase to, the com
 git stash apply n
 ```
 
-Where **n** is the index of the stash you want to restore.
+The alternative syntax used to achieve this is as follows:
+
+```bash
+git stash apply "stash@{n}"
+```
+
+Here **n** is the index of the stash you want to restore.

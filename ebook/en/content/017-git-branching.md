@@ -24,7 +24,7 @@ The image shows 3 branches:
 
 The main branch is the default branch that you are already familiar with. We can consider the other two branches as two new features that are being developed. One developer could be working on a new contact form for your web application on branch #1, and another developer could be working on a user registration form feature on branch #2.
 
-Thanks to the separate branches, both developers could be working on the same project without getting into each others way.
+Thanks to the separate branches, both developers can work on the same project without getting into each others way.
 
 Next, let's go ahead and learn how to create new branches and see this in action!
 
@@ -131,6 +131,19 @@ git log
 ```
 
 With that, we've used quite a bit of the commands that we've covered in the previous chapters!
+
+### Compare branches
+
+```bash
+git log BranchA..BranchB
+```
+Shows the commits on branchA that are not on branchB
+
+```bash
+git diff BranchB...BranchA
+```
+
+shows the difference of what is in branchA but not in branchB.
 
 ### Renaming a branch
 

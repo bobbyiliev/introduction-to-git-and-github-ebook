@@ -55,4 +55,8 @@ Finally, if you run `git status` again you will see that there are no changes to
 
 I always run `git status` and `git diff` before making any commits, just so that I'm sure what has changed.
 
+> Note 1 : `git diff --staged` will only show the changes to the file in "staged" area.
+
+> Note 2 : `git diff HEAD` will show all changes to tracked files(file in last snapshot), if you have all the changes staged for commit then both the commands give same output.
+
 In some cases, you would like to see a list of the previous commits. We will learn how to do that in the next chapter.

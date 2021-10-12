@@ -113,3 +113,12 @@ As you can see, Git has detected that the `README.md` file has been modified and
 In case that you wanted to change your last commit message, you can run the `git commit --amend` command. This will open the default editor where you can change your commit message. Also, this allows you to change the commit changes.
 
 The `git status` command gives us a great overview of the files that have changed, but it does not show us what the changes actually are. In the next chapter, we are going to learn how to check the differences between the last commit and the current changes.
+
+
+* check for commits that changed particular file 
+
+```bash
+git log --follow [file]
+```
+
+Shows the commits that changed the file,even across renames. 

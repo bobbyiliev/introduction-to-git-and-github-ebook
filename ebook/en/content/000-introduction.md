@@ -58,7 +58,7 @@ If you ever need to create a graphic, poster, invitation, logo, presentation –
 
 MIT License
 
-Copyright (c) 2020 Bobby Iliev
+Copyright (©) 2020 Bobby Iliev
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

@@ -2,7 +2,7 @@
 
 *Version control*, also called *Source control*, allows you to track and manage all of the changes to your code.
 
-The main benefit of version control is that multiple people could work on the same project simultaneously. With version control tools like Git, you can track all of the changes to your code, and in case of any problems, you could easily revert back to a working state of your source code.
+The main benefit of version control is that multiple people could work on the same project simultaneously. With version control tools like Git, you can track all of the changes to your code, and in case of any problems, you could easily revert to a working state of your source code.
 
 ![Version Control](https://user-images.githubusercontent.com/21223421/111696461-03056580-883d-11eb-82c4-7f8d926629e6.png)
 

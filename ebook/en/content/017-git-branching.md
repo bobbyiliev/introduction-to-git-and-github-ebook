@@ -134,16 +134,19 @@ With that, we've used quite a bit of the commands that we've covered in the prev
 
 ### Compare branches
 
+You can also compare two branches with the following commands.
+
+* Shows the commits on `branchA` that are not on `branchB`:
+
 ```bash
 git log BranchA..BranchB
 ```
-Shows the commits on branchA that are not on branchB
+
+* Shows the difference of what is in `branchA` but not in `branchB`:
 
 ```bash
 git diff BranchB...BranchA
 ```
-
-shows the difference of what is in branchA but not in branchB.
 
 ### Renaming a branch
 

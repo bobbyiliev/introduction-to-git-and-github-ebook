@@ -52,6 +52,7 @@ To download a copy of the eBook use one of the following links:
 * [**Pull Requests**](ebook/en/content/023-pull-requests.md)
 * [**Git And VS Code**](ebook/en/content/024-git-and-VS-Code.md)
 * [**GitHub CLI**](ebook/en/content/025-github-cli.md)
+* [**Git Stash**](ebook/en/content/026-git-stash.md)
 * [**Git Cheat Sheet**](ebook/en/content/998-git-commands-cheat-sheet.md)
 * [**Create your GitHub profile**](ebook/en/content/997-create-your-github-profile.md)
 * [**Conclusion**](ebook/en/content/999-conclusion.md)

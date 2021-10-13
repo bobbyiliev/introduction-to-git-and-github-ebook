@@ -68,25 +68,28 @@ In this post, I am going to share some tips with you about how you can improve y
 
 For more information, make sure to check out this post on [how to write a good README.md file](https://devdojo.com/bobbyiliev/quick-tips-for-writing-a-good-readme-file).
 
-## GIT STARRING
+## GitHub Stars
 
-This is basically like one of the simplest topic in this book.
-### Why Do We Star A Repository
-Firstly people star a repository for later use or maybe just to keep track of it. i would basically star a repository because i might be needing it for later use. 
-For instance repository like the `INTRODUCTION-TO-GIT-AND-GITHUB-EBOOK` is essential because you might get stuck on git as a beginner and you can just simply refer to it easily. 
-And secondly its used to show support.
+Let's start by answering the question why do we star a repository?
 
-So lets use this ebook `INTRODUCTION-TO-GIT-AND-GITHUB-EBOOK` as an example to actually star a repository.
+Firstly people star a repository for later use or maybe just to keep track of it. I would basically star a repository because I might be needing it for later use.
 
-you have found the `INTRODUCTION-TO-GIT-AND-GITHUB-EBOOK`
+For instance repository like the [introduction-to-git-and-github-ebook](https://github.com/bobbyiliev/introduction-to-git-and-github-ebook) is essential because you might get stuck on Git as a beginner and you can just simply refer to it easily.
 
-![foundshot](https://user-images.githubusercontent.com/53145644/136269043-0a36d5a8-cc0b-4793-808e-ae9c6318e899.PNG)
+And secondly its used to show support to the creator and the maintainers of the repository.
 
-Now you click one this repository and while you are in the repository, at the top of the page where the `USERNAME/THE REPOSITORY NAME` lies.
-at the left of it you will find some couple of icon,
+So lets use this eBook [introduction-to-git-and-github-ebook](https://github.com/bobbyiliev/introduction-to-git-and-github-ebook) as an example to actually star a repository.
+
+You have visit GitHub and find the [introduction-to-git-and-github-ebook](https://github.com/bobbyiliev/introduction-to-git-and-github-ebook) reposotory via the search, or access the repository directly at: 
+
+[https://github.com/bobbyiliev/introduction-to-git-and-github-ebook](https://github.com/bobbyiliev/introduction-to-git-and-github-ebook)
+
+![Github repository example](https://user-images.githubusercontent.com/53145644/136269043-0a36d5a8-cc0b-4793-808e-ae9c6318e899.PNG)
+
+Now while you are on the repository page on GitHub, at the top of the page where the `USERNAME/THE REPOSITORY NAME` lies, you will find some couple of icon:
 
 ![TopBar](https://user-images.githubusercontent.com/53145644/136269993-95e3909b-dc9e-4ff0-91b9-470c991cf66f.PNG)
 
-Click on the star icon and you have successfuly starred the project
+Click on the star icon and you have successfuly starred the project.
 
-CONGRATULATIONS!!!!!
+Whenever you like a project and want to suport the creator, make sure to click star the repository! Just like you would enjoy a video on YouTube and hit the like button.

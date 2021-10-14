@@ -26,9 +26,9 @@ Once you've registered, you can go to https://github.com/YOUR_USER_NAME, and you
 
 If you are not familiar with the word repository, you can think of it as a project. It would hold all of the files of your application or website that you are building. People usually call their repository a repo for short.
 
-To create a new repository on GitHub, you have to click on the `+` sign on the top right and then click on the `New Repository` button:
+To create a new repository on GitHub, you have to click on the `+` sign on the top right corner or click on the green `NEW` button in the top-left where repositories are mentioned and then click on the `New Repository` button:
 
-![Create new repository GitHub](https://imgur.com/HAANHiz.png)
+![Create new GitHub repository](https://imgur.com/HAANHiz.png)
 
 After that, you'll get to a page where you can specify the information for your new repository like:
 
@@ -54,11 +54,17 @@ Whereas a private repository will only be accessible to you and those you have i
 
 Public repositories are used for open source projects.
 
+### Add colaborators to your projects
+
+Colaborators are the people who actively work on the project, for example if a company has taken up a project for which some x, y, z are supposed to work, so these people are added as a colaborator by the the company.
+
+Select a GitHub repository and navigate to the settings tab, in the left side menu bar there is an option `Manage access`, there you can add the collaborators for your project.
+
 ### The README.md file
 
 The `README.md` file is an essential part of each project. The `.md` extension stands for Markdown.
 
-You can think of the `README.md` file as the introduction to your repository. It's beneficial that while looking at someone's repo, you can just scroll down to their README file and have a look at what their project is all about.
+You can think of the `README.md` file as the introduction to your repository. It's beneficial because while looking at someone's repo, you can just scroll down to their README file and have a look at what their project is all about.
 
 And it is crucial that your project is properly introduced. Because if the project itself isn't introduced properly, no one will spend their time helping to improve it and try to develop it further.
 

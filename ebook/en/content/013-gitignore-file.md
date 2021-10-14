@@ -1,10 +1,14 @@
 # Gitignore
 
+While working on a Git repository, you will often have files and directories that you do not want to commit, so that they are not available to others using the repository.
+
 In some cases, you might not want to commit some of your files to Git due to security reasons.
 
-For example, if you have a config file where you have all of your database credentials and other sensitive secrets, you should never add it to Git and push it to GitHub as other people will be able to get hold of that sensitive information.
+For example, if you have a config file that stores all of your database credentials and other sensitive information, you should never add it to Git and push it to GitHub as other people will be able to get hold of that sensitive information.
 
-To do so, you need to have a `gitignore` file which includes a list of all of the files and directories that should be excluded from your Git repository. In this chapter, you will learn how to do that!
+Another case where you may not want to commit a file or directory, is when those files are automatically generated and do not contain source code, so that you don't clutter your repository. Also, sometimes it makes sense not to commit certain files that contain environment information, so that other people can use your code with their own environment files.
+
+To prevent these types of files from being committed, you can create a `gitignore` file which includes a list of all of the files and directories that should be excluded from your Git repository. In this chapter, you will learn how to do that!
 
 ### Ignoring a specific file
 

@@ -4,7 +4,7 @@ Before we deep dive into all of the various Git commands, let's quickly get fami
 
 Git is essentially the tool that you use to track your code changes, and GitHub, on the other side, is a website where you can push your local projects to.
 
-This act as a central hub where you would store your projects and all of your teammates or other people working on the same project as you would push their changes to.
+This is essentially needed as it would act as a central hub where you would store your projects and all of your teammates or other people working on the same project as you would push their changes to.
 
 ### GitHub Registration
 
@@ -56,13 +56,9 @@ Public repositories are used for open source projects.
 
 ### Add colaborators to your projects
 
-colaborators are the people who actively work on the project, for example if a company has taken up a project for which some x, y, z are supposed to work, so these people are added as a colaborator by the the company.
+Colaborators are the people who actively work on the project, for example if a company has taken up a project for which some x, y, z are supposed to work, so these people are added as a colaborator by the the company.
 
-select a github repo
-
-![GitHub Repository](https://imgur.com/HXRQvMu.png)
-
-and navigate to the settings tab, in the left side menu bar you get an option `Manage access` here you can add the collaborators for your project!!
+Select a GitHub repository and navigate to the settings tab, in the left side menu bar there is an option `Manage access`, there you can add the collaborators for your project.
 
 ### The README.md file
 

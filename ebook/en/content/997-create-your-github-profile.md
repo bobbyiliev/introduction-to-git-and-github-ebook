@@ -65,4 +65,4 @@ Check out these useful links to inspire you help you with your GitHub profile:
 * https://github.com/elangosundar/awesome-README-templates
 
 ### Be creative
-This is a fun project to work on. Be creative! There is a lot more you can add to your profile. From adding different statistics, technologies & tools you use, emoji GIFs etc. You can ask friends or other developers their opinions of your GitHub profile. Remember don't over do it. No one wants super fast animations or flashing images that will hurt their eyes. Think of nice color themes, what works well together and adding a nice profile pic. Good luck!
+This is a fun project to work on. Be creative! There is a lot more you can add to your profile. From adding different statistics, technologies & tools you use, emoji GIFs etc. You can ask friends or other developers their opinions of your GitHub profile. Remember don't overdo it. No one wants super fast animations or flashing images that will hurt their eyes. Think of nice color themes, what works well together and adding a nice profile pic. Good luck!

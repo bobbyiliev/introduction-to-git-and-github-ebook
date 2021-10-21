@@ -87,9 +87,6 @@ touch README.md
 ```
 The above will create a new, empty file with the name README.md 
 
-One thing that you need to keep in mind is that all shell commands are case sensitive, so if you type `ls` it would not work.
-
-With that, now you know some basic shell commands which will be beneficial for your day-to-day activities.
-One thing that you need to keep in mind is that all shell commands are case sensitive, so if you type `ls` it would not work.
+One thing that you need to keep in mind is that all shell commands are case sensitive, so if you type `LS` it would not work.
 
 With that, now you know some basic shell commands which will be beneficial for your day-to-day activities.

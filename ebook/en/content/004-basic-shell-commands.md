@@ -78,6 +78,18 @@ rm -r ebook
 
 > Note: keep in mind that the `rm` command would completely delete the files and folders, and the action is irreversible, meaning that you can't get them back.
 
+### The `touch` command
+
+The `touch` command is used to update timestamps on files.  A useful feature of the touch command is that it will create an empty file.  This is useful if you want to create file in your directory that doesn't currently exist 
+
+```bash
+touch README.md
+```
+The above will create a new, empty file with the name README.md 
+
+One thing that you need to keep in mind is that all shell commands are case sensitive, so if you type `ls` it would not work.
+
+With that, now you know some basic shell commands which will be beneficial for your day-to-day activities.
 One thing that you need to keep in mind is that all shell commands are case sensitive, so if you type `ls` it would not work.
 
 With that, now you know some basic shell commands which will be beneficial for your day-to-day activities.

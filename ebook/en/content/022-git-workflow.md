@@ -5,6 +5,7 @@ Now that you know the basic commands, let's put it all together and go through a
 Usually, the workflow looks something like this:
 
 A Big Picture
+
 ![Overview of Git workflow](https://res.cloudinary.com/practicaldev/image/fetch/s--M_fHUEqA--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://thepracticaldev.s3.amazonaws.com/i/128hsgntnsu9bww0y8sz.png)
 
 * First, you clone an existing project with the `git clone` command, or if you are starting a new project, you initialize it with the `git init` command.

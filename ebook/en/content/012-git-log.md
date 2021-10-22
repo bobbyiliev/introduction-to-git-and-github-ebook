@@ -22,6 +22,8 @@ Date:   Fri Mar 12 17:01:17 2021 +0000
     Initial commit
 ```
 
+The entries are listed, in order, from most recent to oldest.
+
 Rundown of the output:
 
 * `commit da46ce39a3fd663ff802d013f834431d4b4159a5`: Here you can see the specific commit ID

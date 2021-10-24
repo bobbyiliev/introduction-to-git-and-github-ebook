@@ -1,0 +1,61 @@
+Rebasing Step-by-Step:-
+
+This is a walk-through of how I recently resolved a mid-rebase conflict. The scenario: At the very beginning of the project, I stubbed out a number of chapter files in the branch drafts. Once I had a few chapters finished, I uploaded the files to the builder server and realised it made for a very ugly document. I separated work-in-progress into per-chapter branches. This made things a lot cleaner. Unfortunately I forgot to delete the stub file for Chapter 10 in the branch drafts. Eventually I got around to it, but in the mean time, I'd also made a bunch of edits to the chapter file in the branch ch10. Bringing ch10 up-to-date via rebasing meant dealing with the conflict whereby the updates in drafts would result in the file being removed from ch10, which was not what I wanted as a final outcome. This piece walks you through how I brought the branch ch10 up-to-date while keeping the latest version of the file ch10.asciidoc (from ch10) in place
+
+/*-----------------------------------*/
+
+Begin Rebasing
+
+Change into the branch which is currently out-of-date from the main project, but which contains new work that hasn't been introduced yet:
+
+$ git checkout ch10
+
+Begin the rebasing process:
+
+$ git rebase drafts
+
+If there are no conflicts, Git will skip merrily through the process and spit you out the other end. However...if there are conflicts...
+
+/*----------------------------------------------*/
+
+Mid-Rebase Conflict from a Deleted File
+
+Exactly as I anticipated: The file ch10.asciidoc is a problem. Git has put me into a detached HEAD state while I resolve the conflict.
+
+The relevant piece of information from this output is:
+
+When you have resolved this problem, run "git rebase --continue".
+
+This tells me that I need to:
+
+Resolve the merge conflict.
+Once I think the merge conflict is resolved, run the command git rebase --continue.
+Step 1: resolve the merge conflict. I do this by editing the file in question and looking for merge conflict markers.
+
+$ vim ch10.asciidoc
+
+At this point CH10 is an out-of-date version of the file which existed at an earlier point. There are no merge conflict markers in the file, so I proceed to Step 2.
+
+$ git rebase --continue
+
+Aha: Unmerged paths and then a little later on deleted by us: ch10.asciidoc. Well I don't want the file to be deleted.
+
+Fortunately Git has given me a useful suggestion this time.
+
+(use "git reset HEAD <file>..." to unstage)
+
+This is useful because Git has told me deleted by us and I know I don't want to delete the file, therefore I need to unstage Git's change. Unstaging a change is effectively saying to Git, "that thing you were planning to do? Don't do it. In fact, forget you were even thinking about doing anything with that file. Reset your HEAD, Git."
+
+$ git reset HEAD ch10.asciidoc
+
+Now, what this command is actually doing is clearing out the staging index, and moving the pointer back to the most recent known commit. As I am knee-deep in a rebase, and in a detached HEAD state as opposed to in a branch, reset simply clears away the staging index and puts me in the most recent state from the rebasing process. In my case, this leaves me with the older version of the file, which is fine. As I proceed through the rebase, I'll replace the contents of the file with the latest version from the ch10 branch.
+
+Still with me? Let's see what Git thinks I should do next:
+
+$ git status
+
+/*-------------------------------------------*/
+
+Conclusion:-
+
+There are a few different ways that rebasing can kick up a conflict. Take your time, read the instructions carefully, and if you aren't getting useful information, try using git status to see if there's something more helpful that Git can offer. And, if you are really in a panic about what's happening, you can always abort the process with git rebase --abort. This will return you the state your branch was in right before you started the rebase.

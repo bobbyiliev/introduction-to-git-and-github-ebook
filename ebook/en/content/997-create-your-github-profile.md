@@ -63,19 +63,24 @@ Adding social meida buttons is a great way to direct visitors or even employers 
 
 As the number of repositories you've created or contributed to grows, you might want to showcase a few of these repositories straight on your profile. This feature is extra useful when you want to present your portfolio to a potential employer and want them to see the work you are proudest of first!
 
-This is how you do it: </br>
+This is how you do it:
 
-In the top right corner, click on your profile photo and select "Your profile" from the menu: </br>
-<img src="https://docs.github.com/assets/images/help/profile/top_right_avatar.png" alt="your profile button" width="400" />
+In the top right corner, click on your profile photo and select "Your profile" from the menu: 
+
+![your profile button](https://docs.github.com/assets/images/help/profile/top_right_avatar.png?v=4&s=200)
+
 
 In the section saying "Popular repositories" or "Pinned", click on "Customize your pins":
-<img src="https://docs.github.com/assets/images/help/profile/customize-pinned-repositories.png" alt="customize your pins button"/>
+
+![customize your pins button](https://docs.github.com/assets/images/help/profile/customize-pinned-repositories.png?v=4&s=200)
 
 After the previous step, the "Edit pinned items" modal will open. Here, you can choose a combination of up to six repositories and/or gists to display:
-<img src="https://docs.github.com/assets/images/help/profile/select-items-to-pin.png" alt="choose repositories" width="400"/>
+
+![choose repositories](https://docs.github.com/assets/images/help/profile/select-items-to-pin.png?v=4&s=200)
 
 Once you've decided which repositories you want to pin, click "Save pins":
-<img src="https://docs.github.com/assets/images/help/profile/save-pinned-repositories.png" alt="save pins button"/>
+
+![save pins button](https://docs.github.com/assets/images/help/profile/save-pinned-repositories.png?v=4&s=200)
 
 ### Get inspired
 Check out these useful links to inspire you help you with your GitHub profile:

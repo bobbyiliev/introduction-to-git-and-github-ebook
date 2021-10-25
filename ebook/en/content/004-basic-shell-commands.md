@@ -78,6 +78,21 @@ rm -r ebook
 
 > Note: keep in mind that the `rm` command would completely delete the files and folders, and the action is irreversible, meaning that you can't get them back.
 
+### The `mkdir` command
+The `mkdir` command stands for `make directory` and is used for creating one or more new directories.  All you need to do in order to create a new directory using this command is to open a terminal, `cd` into desired location and run the following:
+
+```bash
+mkdir My_New_Directory
+```
+
+The above command will create a new, empty directory called `My_New_Directory`.
+
+You can also create serveral new directories by placing the names of desired directories after each other:
+
+```bash
+mkdir My_New_Directory My_Another_New_Directory
+```
+
 ### The `touch` command
 
 The `touch` command is used to update timestamps on files.  A useful feature of the touch command is that it will create an empty file.  This is useful if you want to create file in your directory that doesn't currently exist 

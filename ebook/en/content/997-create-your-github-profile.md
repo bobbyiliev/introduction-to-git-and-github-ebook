@@ -59,6 +59,26 @@ Adding social meida buttons is a great way to direct visitors or even employers 
 [![Twitter URL](https://img.shields.io/twitter/url/https/twitter.com/USER-NAME.svg?style=social&label=Twitter)](https://twitter.com/USER-NAME)
 ````
 
+### Pin repositories to your GitHub profile
+
+As the number of repositories you've created or contributed to grows, you might want to showcase a few of these repositories straight on your profile. This feature is extra useful when you want to present your portfolio to a potential employer and want them to see the work you are proudest of first!
+
+This is how you do it:
+
+In the top right corner, click on your profile photo and select "Your profile" from the menu: 
+
+![your profile button](https://user-images.githubusercontent.com/21223421/138660821-9a53c9a0-825f-4d46-a6e1-72037b52cc5f.png)
+
+In the section saying "Popular repositories" or "Pinned", click on "Customize your pins":
+
+![customize your pins button](https://user-images.githubusercontent.com/21223421/138660927-daef01dc-ae1c-4abc-8b8a-3769733a549e.png)
+
+After the previous step, the "Edit pinned items" modal will open. Here, you can choose a combination of up to six repositories and/or gists to display:
+
+![choose repositories](https://user-images.githubusercontent.com/21223421/138660995-73a57380-72c1-4272-8648-6d62adfb1e3d.png)
+
+Once you've decided which repositories you want to pin, click "Save pins".
+
 ### Get inspired
 Check out these useful links to inspire you help you with your GitHub profile:
 * https://github.com/abhisheknaiidu/awesome-github-profile-readme

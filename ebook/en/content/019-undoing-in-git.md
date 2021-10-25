@@ -1,6 +1,4 @@
-# Undoing changes
-
-## 1. Changing The Last Commit
+# Reverting changes
 
 As with everything, there are multiple ways to do a specific thing. But what I would usually do in this case I want to undo my latest commit and then commit my new changes is the following.
 
@@ -23,9 +21,9 @@ git commit --amend
 **Note:** The above command will also let you change the commit massege if you need.
 
 
-## 2. Resetting Changes (⚠️ Resetting Is Dangerous ⚠️) 
+## Resetting Changes (⚠️ Resetting Is Dangerous ⚠️) 
 
->You need to be careful with resetting commands, because this command will erase commits from the repository and delete it from the history.
+> You need to be careful with resetting commands, because this command will erase commits from the repository and delete it from the history.
 
 Example:
 ```bash

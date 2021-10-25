@@ -10,8 +10,22 @@ git commit -m "Committing the wrong changes"
 
 * After that if you run `git log`, you will see the history of everything that has been committed to a repository.
 
-* To undo the last commit, just run the following:
+* Unfortunately, after you commit the wrong changes, you realize that you forget to add files to the commit or forget to add small change to commited files.
 
+* To solve that all you need to do is making these changes and stage them by run `git add` then you can `amend` the last commit by running the following command:
+
+```bash
+git commit --amend
+```
+
+**Note:** The above command will also let you change the commit massege if you need.
+
+
+## Resetting Changes (⚠️ Resetting Is Dangerous ⚠️) 
+
+> You need to be careful with resetting commands, because this command will erase commits from the repository and delete it from the history.
+
+Example:
 ```bash
 git reset --soft HEAD~1
 ```
@@ -19,6 +33,11 @@ git reset --soft HEAD~1
 The above command will reset back with 1 point.
 
 **Note:** the above would undo your commit, but it would keep your code changes if you would like to get rid of the changes as well, you need to do a hard reset: `git reset --hard HEAD~1`
+
+Syntax:
+```bash
+git reset [--soft|--hard] [<reference-to-commit>]
+```
 
 * After that, make your new changes
 
@@ -43,6 +62,12 @@ git log
 Here's a screenshot of the process:
 
 ![Git How to undo latest commit digitalocean](https://i.imgur.com/L5zOGG1.png)
+
+**Note:** You can reset your changes by more than one commit by using the following syntax:
+```bash
+git reset --soft HEAD~n
+```
+where `n` is the number of commits you want to reset back.
 
 Another approach would be to use `git revert COMMIT_ID` instead.
 

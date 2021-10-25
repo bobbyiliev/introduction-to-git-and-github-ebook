@@ -91,7 +91,7 @@ You can also create serveral new directories by placing the names of desired dir
 
 ```bash
 mkdir My_New_Directory My_Another_New_Directory
-
+```
 
 ### The `touch` command
 

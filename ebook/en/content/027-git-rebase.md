@@ -34,7 +34,9 @@ Then you notice some new commits on dev that you’d like to have in your featur
 You decide to run git rebase dev from your feature branch to get up-to-date with dev.
 However when you run the rebase command, there are some conflicts between the changes you made on feature and the new commits on dev. Thankfully, the rebase process goes through each commit one at a time and so as soon as it notices a conflict on a commit, git will provide a message in the terminal outlining what files need to be resolved. Once you’ve resolved the conflict, you git add your changes to the commit and run git rebase --continue to continue the rebase process. If there are no more conflicts, you will have successfully rebased your feature branch onto dev.
 
-https://miro.medium.com/proxy/1*ojp92UHnwskIs6r3WRDyEw.png
+![image](https://user-images.githubusercontent.com/54790525/138965979-f207053e-afcf-49a6-a392-fe4fd530011a.png)
+
+Now you can continue working on your feature with the latest commits from dev included in feature and all is well again in the world. This process can repeat itself if the dev branch is updated with additional commits.
 
   - #### Rebase :
   On the other hand `Rebase` command is used to transfer the base of the branch to be based at the last commit of the current branch which make them as one branch as shown in the picture at the top.

@@ -1,14 +1,16 @@
 
 # Git Rebase
 
-This command aims to change the base of a certain branch to another base (usually used when we need to apply features to the master branch).
+Rebasing is often used as an alternative to merging. Rebasing a branch updates one branch with another by applying the commits of one branch on top of the commits of another branch. For example, if working on a feature branch that is out of date with a dev branch, rebasing the feature branch onto dev will allow all the new commits from dev to be included in feature. Here’s what this looks like visually:
 
 ### Visualization of the command :
-![Rebase](https://i.imgur.com/jTC1G4g.png)
+![image](https://user-images.githubusercontent.com/54790525/138965417-52f36e80-fbd1-4eaa-8914-1a228988c4f4.png)
+![image](https://user-images.githubusercontent.com/54790525/138965429-87265772-b89a-4a31-9deb-3a902d885540.png)
+
 
 ### Syntax : 
 ```bash
-git rebase master branch1
+git rebase feature dev
 ```
 where branch1 is the branch we want to rebase to the master.
 
@@ -18,6 +20,21 @@ Many people think that `Merge` and `Rebase` commands perform the same job but ac
 -  #### Merge : 
   This command is used to integrate changes from some branch to another branch with keeping the merged branch at its base so you can easily return to earlier version of code if you want and the following picture show that : 
   ![Merge](https://i.imgur.com/jD4yhZ5.png)
+
+### typical use of rebasing
+#### Updating a Feature Branch
+Lets say you’re working away on a feature branch, minding your own business.
+![image](https://user-images.githubusercontent.com/54790525/138965621-337737eb-6758-4556-891b-54795a4735df.png)
+
+Then you notice some new commits on dev that you’d like to have in your feature branch, since the new commits may affect how you implement the feature.
+
+![image](https://user-images.githubusercontent.com/54790525/138965666-88f517f6-2906-4c7e-8937-e53404812c21.png)
+
+
+You decide to run git rebase dev from your feature branch to get up-to-date with dev.
+However when you run the rebase command, there are some conflicts between the changes you made on feature and the new commits on dev. Thankfully, the rebase process goes through each commit one at a time and so as soon as it notices a conflict on a commit, git will provide a message in the terminal outlining what files need to be resolved. Once you’ve resolved the conflict, you git add your changes to the commit and run git rebase --continue to continue the rebase process. If there are no more conflicts, you will have successfully rebased your feature branch onto dev.
+
+https://miro.medium.com/proxy/1*ojp92UHnwskIs6r3WRDyEw.png
 
   - #### Rebase :
   On the other hand `Rebase` command is used to transfer the base of the branch to be based at the last commit of the current branch which make them as one branch as shown in the picture at the top.

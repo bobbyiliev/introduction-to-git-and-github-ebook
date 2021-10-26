@@ -20,4 +20,4 @@ Many people think that `Merge` and `Rebase` commands perform the same job. but a
   ![Merge](https://i.imgur.com/jD4yhZ5.png)
 
   - #### Rebase :
-  On the other hand `Rebase` command is used to transfer the base of the branch to be based at the last commit of the current branch. which makes them as one branch as shown in the picture at the top.
+  On the other hand `Rebase` command is used to transfer the base of the branch to be based at the last commit of the current branch, which makes them as one branch as shown in the picture at the top.

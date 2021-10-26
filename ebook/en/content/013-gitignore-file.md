@@ -6,7 +6,7 @@ In some cases, you might not want to commit some of your files to Git due to sec
 
 For example, if you have a config file that stores all of your database credentials and other sensitive information, you should never add it to Git and push it to GitHub as other people will be able to get hold of that sensitive information.
 
-Another case where you may not want to commit a file or directory, is when those files are automatically generated and do not contain source code, so that you don't clutter your repository. Also, sometimes it makes sense not to commit certain files that contain environment information, so that other people can use your code with their own environment files.
+Another case where you may not want to commit a file or directory, is when those files are automatically generated and do not contain source code, so that you don't clutter your repository. Also, sometimes it makes sense not to commit certain files that contain environment information, so that other people can use your code with their environment files.
 
 To prevent these types of files from being committed, you can create a `gitignore` file which includes a list of all of the files and directories that should be excluded from your Git repository. In this chapter, you will learn how to do that!
 
@@ -14,7 +14,7 @@ To prevent these types of files from being committed, you can create a `gitignor
 
 Let's have a look at the following example if you had a `PHP` project and a file called `config.php`, which stores your database connection string details like username, password, host, etc.
 
-In order to exclude that file from your git project, you could create a file called `.gitignore` inside your project's directory:
+To exclude that file from your git project, you could create a file called `.gitignore` inside your project's directory:
 
 ```bash
 touch .gitignore
@@ -34,9 +34,9 @@ That way, you would keep your database credentials safe!
 
 In some cases, you might want to ignore a whole folder. For example, if you have a huge `node_modules` folder, there is no need to add it and commit it to your Git project, as that directory is generated automatically whenever you run `npm install`.
 
-The same would go for the `vendor` folder in Laravel. You should not really add the `vendor` folder to your Git project, as all of the content of that folder is generated automatically whenever you run `composer install`.
+The same would go for the `vendor` folder in Laravel. You should not add the `vendor` folder to your Git project, as all of the content of that folder is generated automatically whenever you run `composer install`.
 
-So in order to ignore the `vendors` and `node_modules` folders, you could just add them to your `.gitignore` file:
+So to ignore the `vendors` and `node_modules` folders, you could just add them to your `.gitignore` file:
 
 ```
 # Ignored folders
@@ -45,7 +45,7 @@ node_modules/
 ```
 ### Ignoring a whole directory except for a specific file
 
-Sometimes, you want to ignore a directory except for one or a couple of other files within that directory. It could be that the directory is required for your application to run but the files created is not supposed to be pushed to the remote repository or maybe you want to have a `README.md` file inside the directory for some purpose. In order to achieve this, your `.gitignore` file should like like this:
+Sometimes, you want to ignore a directory except for one or a couple of other files within that directory. It could be that the directory is required for your application to run but the files created is not supposed to be pushed to the remote repository or maybe you want to have a `README.md` file inside the directory for some purpose. To achieve this, your `.gitignore` file should like like this:
 
 ```
 data/*
@@ -58,7 +58,7 @@ Take note that the ordering is important in this case. Otherwise, it will not wo
 
 ### Getting a gitignore file for Laravel
 
-In order to get a `gitignore` file for Laravel, you could get the file from [the official Laravel Github repository] here(https://github.com/laravel/laravel/).
+To get a `gitignore` file for Laravel, you could get the file from [the official Laravel Github repository] here(https://github.com/laravel/laravel/).
 
 The file would look something like this:
 

@@ -18,7 +18,7 @@ Note that when you choose SSH, the `https://` part is changed with `git@`, and y
 
 ### Generating SSH Keys
 
-In order to generate a new SSH key pair in case that you don't have one, you can run the following command:
+To generate a new SSH key pair in case that you don't have one, you can run the following command:
 
 ```bash
 ssh-keygen

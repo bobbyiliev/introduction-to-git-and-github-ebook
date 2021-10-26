@@ -155,6 +155,6 @@ git commit -am "Resolve merge conflict"
 
 ### Conclusion
 
-Git branches and merges allow you to work on a project together with other people. One important thing to keep in mind is to make sure that you pull the changes to your local `main` branch on a regular basis so that it does not get behind from the remote one.
+Git branches and merges allow you to work on a project together with other people. One important thing to keep in mind is to make sure that you pull the changes to your local `main` branch on a regular basis so that it does not get behind the remote one.
 
 A few more commands which you might find useful once you feel comfortable with what we've covered so far are the `git rebase` command and the `git cherry-pick` command, which lets you pick which commits from a specific branch you would like to carry over to your current branch.

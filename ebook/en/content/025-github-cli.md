@@ -143,7 +143,7 @@ Showing 4 of 4 open issues in thedevdojo/larasail
 #25  Add option to automatically create database                                                  (enhancement)  about 3 months ago
 #22  Remove PHP mcrypt as it is no longer needed                                                                 about 3 months ago
 #11  Add redis support                                                                                           about 8 months ago
-#10  Wondering about the security of storing root mysql password in /etc/.larasail/tmp/mysqlpass                 about 3 months ago
+#10  Wondering about the security of storing root MySQL password in /etc/.larasail/tmp/mysqlpass                 about 3 months ago
 ```
 
 You can even create a new issue with the following command:
@@ -161,7 +161,7 @@ gh issue view '#25'
 This would return all of the information for that specific issue number:
 
 ```
-Add option to automatically create database
+Add option to automatically create a database
 Open • bobbyiliev opened about 3 months ago • 0 comments
 
 Labels: enhancement
@@ -177,7 +177,7 @@ View this issue on GitHub: https://github.com/thedevdojo/larasail/issues/25
 
 ### Working with your GitHub repository
 
-You can use the `gh repo` command to create, clone or view an existing repository:
+You can use the `gh repo` command to create, clone, or view an existing repository:
 
 ```bash
 gh repo create

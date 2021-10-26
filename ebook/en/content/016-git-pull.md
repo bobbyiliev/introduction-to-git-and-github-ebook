@@ -2,7 +2,7 @@
 
 If you are working on a project with multiple people, the chances are that the codebase will change very often. So you would need to have a way to get the latest changes from the GitHub repository to your local machine. 
 
-You already know that you can use the `git push` command to push your latest commits, so in order to do the opposite and pull the latest commits from GitHub to your local project, you need to use the `git pull` command.
+You already know that you can use the `git push` command to push your latest commits, so to do the opposite and pull the latest commits from GitHub to your local project, you need to use the `git pull` command.
 
 To test this, let's go ahead and make a change directly on GitHub directly. Once you are there, click on the `README.md` file and then click on the pencil icon to edit the file:
 
@@ -51,7 +51,7 @@ We can see that the `README.md` file was changed and that there were 2 new lines
 
 Now, if you were to run `git log`, you will see the commit that you've made on GitHub available locally.
 
-Of course, this is a simplified scenario. In the real world, you would not make any changes directly to GitHub, but you would most likely work with other people on the same project, and you would have to pull their latest changes on a regular basis.
+Of course, this is a simplified scenario. In the real world, you would not make any changes directly to GitHub, but you would most likely work with other people on the same project, and you would have to pull their latest changes regularly.
 
 You need to make sure that you pull the latest changes every time before you try to push your changes.
 

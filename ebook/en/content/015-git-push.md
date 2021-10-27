@@ -24,7 +24,7 @@ However, if you did not follow the steps from the previous chapter, you can use 
 git remote add origin https://github.com/your_username/your_repo_name.git
 ```
 
-In order to verify your remote repository, you can run the following command:
+To verify your remote repository, you can run the following command:
 
 ```bash
 git remote -v
@@ -51,7 +51,7 @@ Please make sure you have the correct access rights
 and the repository exists.
 ```
 
-This would mean that you've not added your GitHub repository as the remote repository. This is why we run the `git remote add` command in order to create that connection between your local repository and the remote GitHub repository.
+This would mean that you've not added your GitHub repository as the remote repository. This is why we run the `git remote add` command to create that connection between your local repository and the remote GitHub repository.
 
 Note that the connection would be in place if you used the `git clone` command to clone an existing repository from GitHub to your local machine. We will go through the `git pull` command in the next few chapters as well.
 

@@ -6,7 +6,7 @@ Here is a list of the Git commands mentioned throughout the eBook
 
 Before you initialize a new git repository or start making commits, you should set up your git identity. 
 
-In order to change the name that is associated with your commits, you can use the `git config` command:
+To change the name that is associated with your commits, you can use the `git config` command:
 
 ```bash
 git config --global user.name "Your Name"
@@ -51,19 +51,19 @@ git clone your_project_url
 
 ### Current status
 
-In order to check the current status of your local git repository, you need to use the following command:
+To check the current status of your local git repository, you need to use the following command:
 
 ```bash
 git status
 ```
 
-This is probably one of the most used commands as you would need to check the status of your local repository quite often in order to be able to tell what files have been changed, staged, or deleted.
+This is probably one of the most used commands as you would need to check the status of your local repository quite often to be able to tell what files have been changed, staged, or deleted.
 
 ### Add a file to the staging area
 
 Let's say that you have a static HTML project, and you have already initialized your git repository.
 
-After that, at a later stage, you decide to add a new HTML file called `about-me.html`, then you've added some HTML code in there already. In order to add your new file so that it is also tracked in git, you first need to use the `git add` command:
+After that, at a later stage, you decide to add a new HTML file called `about-me.html`, then you've added some HTML code in there already. To add your new file so that it is also tracked in git, you first need to use the `git add` command:
 
 ```bash
 git add file_name
@@ -91,7 +91,7 @@ Changes to be committed:
 
 ### Removing files
 
-In order to remove a file from your git project, use the following command:
+To remove a file from your git project, use the following command:
 
 ```bash
 git rm some_file.txt
@@ -117,7 +117,7 @@ In case that you've made a mistake and you want to discard the changes for a spe
 git checkout -- file_name
 ```
 
-This is a convenient command as you can really quickly revert a file back to its original content.
+This is a convenient command as you can quickly revert a file to its original content.
 
 ### Commit to local
 
@@ -139,7 +139,7 @@ git commit -m "Nice commit message here"
 
 ### List branches
 
-In order to list all of the available local branches, just run the following command:
+To list all of the available local branches, just run the following command:
 
 ```bash
 git branch -a
@@ -161,7 +161,7 @@ The `remotes` keyword indicates that those branches are remote branches.
 
 ### Fetch changes from remote and merge the current branch with upstream
 
-If you are working together with a team of developers working on the same project, more often than not, you would need to fetch the changes that your colleagues have made in order to have them locally on your PC.
+If you are working together with a team of developers working on the same project, more often than not, you would need to fetch the changes that your colleagues have made to have them locally on your PC.
 
 To do that, all you need to do is to use the `git pull` command:
 

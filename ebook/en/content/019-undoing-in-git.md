@@ -10,20 +10,20 @@ git commit -m "Committing the wrong changes"
 
 * After that if you run `git log`, you will see the history of everything that has been committed to a repository.
 
-* Unfortunately, after you commit the wrong changes, you realize that you forget to add files to the commit or forget to add small change to commited files.
+* Unfortunately, after you commit the wrong changes, you realize that you forget to add files to the commit or forget to add a small change to committed files.
 
-* To solve that all you need to do is making these changes and stage them by run `git add` then you can `amend` the last commit by running the following command:
+* To solve that all you need to do is make these changes and stage them by running` git add` then you can `amend` the last commit by running the following command:
 
 ```bash
 git commit --amend
 ```
 
-**Note:** The above command will also let you change the commit massege if you need.
+**Note:** The above command will also let you change the commit message if you need.
 
 
 ## Resetting Changes (⚠️ Resetting Is Dangerous ⚠️) 
 
-> You need to be careful with resetting commands, because this command will erase commits from the repository and delete it from the history.
+> You need to be careful with resetting commands because this command will erase commits from the repository and delete it from the history.
 
 Example:
 ```bash

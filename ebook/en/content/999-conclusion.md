@@ -8,8 +8,8 @@ If you have any suggestions for improvements, make sure to contribute pull reque
 
 In this introduction to Git and GitHub eBook, we just covered the basics, but you still have enough under your belt to start using Git and start contributing to some awesome open source projects!
 
-As a next step, try to create a GitHub project, clone it locally and push a project that you've been working on to GitHub! I could also recommend the following [GitHub training here](https://training.github.com/).
+As the next step, try to create a GitHub project, clone it locally and push a project that you've been working on to GitHub! I could also recommend the following [GitHub training here](https://training.github.com/).
 
-In case that this eBook inspired you to contribute to some amazing open-source project, make sure to tweet about it and tag [@bobbyiliev_](https://twitter.com) so that we could check it out!
+In case that this eBook inspired you to contribute to some amazing open-source project, make sure to tweet about it and tag [@bobbyiliev_](https://twitter.com) so that we can check it out!
 
 Congrats again on completing this eBook!

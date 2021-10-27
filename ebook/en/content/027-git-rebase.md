@@ -38,5 +38,5 @@ However when you run the rebase command, there are some conflicts between the ch
 
 Now you can continue working on your feature with the latest commits from dev included in feature and all is well again in the world. This process can repeat itself if the dev branch is updated with additional commits.
 
-  - #### Rebase :
+- #### Rebase :
   On the other hand `Rebase` command is used to transfer the base of the branch to be based at the last commit of the current branch which make them as one branch as shown in the picture at the top.

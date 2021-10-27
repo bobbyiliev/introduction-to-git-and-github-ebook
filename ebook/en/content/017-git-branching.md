@@ -150,7 +150,7 @@ git diff BranchB...BranchA
 
 ### Renaming a branch
 
-In case that you've created a branch with a wrong name or if you think that the name could be improved as it is not descriptive enough, you can rename a branch by running the following command:
+In case that you've created a branch with the wrong name or if you think that the name could be improved as it is not descriptive enough, you can rename a branch by running the following command:
 
 ```bash
 git branch -m wrong-branch-name correct-branch-name
@@ -190,4 +190,4 @@ With that, our `newFeature` branch is now ahead of the main branch with 1 commit
 
 In the next chapter, you will learn how to merge your changes from one branch to another!
 
-One thing that you might want to keep in mind is that in the past when creating a new GitHub repository the default branch name was called `master`, however new repositories created on GitHub use `main` instead of `master` as the default branch name. This is part of GitHub's effort to remove unnecessary references to slavery and replace them with more inclusive terms.
+One thing that you might want to keep in mind is that in the past when creating a new GitHub repository the default branch name was called `master`. However, new repositories created on GitHub use `main` instead of `master` as the default branch name. This is part of GitHub's effort to remove unnecessary references to slavery and replace them with more inclusive terms.

@@ -1,8 +1,8 @@
 # Git Stash
 
-`git stash` is a handy command that helps you in cases where you might need to stash away your local changes, and reset your codebase to the mose recent commit in order to work on a more urgent bug/feature.
+`git stash` is a handy command that helps you in cases where you might need to stash away your local changes and reset your codebase to the most recent commit in order to work on a more urgent bug/feature.
 
-In other words, this command allows you to revert your current working directory to match the `HEAD` commit, while keeping all the local modifications safe.
+In other words, this command allows you to revert your current working directory to match the `HEAD` commit while keeping all the local modifications safe.
 
 Once you are ready to get back to working on the code you had stashed away, just restore them with a single command!
 
@@ -18,9 +18,9 @@ For example, consider a file named `index.html` which has been modified since th
 
 Notice that the running `git status` command says that there are no new changes once the `git stash` command is executed!
 
-Here WIP stands for Work-In-Progess and these are used to index the various stashed copies of your work.
+Here WIP stands for Work-In-Progress and these are used to index the various stashed copies of your work.
 
-An important thing to keep in mind before stashing all new changes is that, by dafault, `git stash` **will not stash all the untracked and ignored files.** (Here, _untracked files_ are the files which weren't part of the last commit i.e, new files in your local repo)
+An important thing to keep in mind before stashing all new changes is that, by default, `git stash` **will not stash all the untracked and ignored files.** (Here, _untracked files_ are the files that weren't part of the last commit i.e, new files in your local repo)
 
 In case you want to include these untracked files in the stash, you'll need to add the **-u** option.
 
@@ -34,7 +34,7 @@ Similarly, all the files in the `.gitignore` file (i.e, _the ignored files_) wil
 git stash -a
 ```
 
-The following illustrations depicts the behaviour of the `git stash` command when the above two options are included:
+The following illustrations depict the behaviour of the `git stash` command when the above two options are included:
 
 ![git-stash-options](https://user-images.githubusercontent.com/42696800/136953468-8bbcbc7e-54e3-4927-b3e7-9ebd96db0fe2.png)
 
@@ -50,11 +50,11 @@ Note that another command that can be used to achieve this is the `git stash pop
 
 The difference between these two commands is that the `git stash pop` command **will remove these particular changes from the stash** whereas the `git stash apply` command **will retain those changes in the stash** even after restoring them.
 
-Consider the previous example itself, in which the file `index.html` was stashed. In the following image you can see how restoring all those changes affects your local repo.
+Consider the previous example itself, in which the file `index.html` was stashed. In the following image, you can see how restoring all those changes affects your local repo.
 
 ![git-stash-apply](https://user-images.githubusercontent.com/42696800/136791882-c43f5805-354c-47f1-8866-959d519a932e.png)
 
-But what if you have multiple stashes and aren't sure which one you want to start working on? This is where the next command comes into picture!
+But what if you have multiple stashes and aren't sure which one you want to start working on? This is where the next command comes into the picture!
 
 ## Handling Multiple Stashed Copies of Your Work
 
@@ -64,7 +64,7 @@ Similar to the process involved in resetting the local repository to a particula
 git stash list
 ```
 
-This command shows an indexed list of all the available stashes along with a **message correponding to their respective recent commits**.
+This command shows an indexed list of all the available stashes along with a **message corresponding to their respective recent commits**.
 
 Consider the following example wherein there are two available stashes. One, when a new script file was added and another when this script file was altered.
 
@@ -72,7 +72,7 @@ Consider the following example wherein there are two available stashes. One, whe
 
 Note that the most recent stash is always indexed as 0.
 
-Once you know which stash you want to restore to your local codebase to, the command used to restore those modifications is:
+Once you know which stash you want to restore to your local codebase, the command used to restore those modifications is:
 
 ```bash
 git stash apply n

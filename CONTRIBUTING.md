@@ -46,3 +46,4 @@ Issue template types include the following:
  - Bug Reporting
  - Feature Requests
  - Help Requests
+.

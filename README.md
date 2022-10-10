@@ -56,6 +56,7 @@ To download a copy of the eBook use one of the following links:
 * [**Git Alias**](ebook/en/content/027-git-alias.md)
 * [**Git Rebase**](ebook/en/content/028-git-rebase.md)
 * [**Git Switch**](ebook/en/content/029-git-switch.md)
+* [**GitHub Markdown Cheatsheet**](ebook/en/content/030-github-marksdown-cheetsheat.md)
 * [**Git Cheat Sheet**](ebook/en/content/998-git-commands-cheat-sheet.md)
 * [**Create your GitHub profile**](ebook/en/content/997-create-your-github-profile.md)
 * [**Conclusion**](ebook/en/content/999-conclusion.md)

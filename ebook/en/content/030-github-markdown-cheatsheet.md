@@ -1,5 +1,5 @@
-GitHub Markdown Cheatsheet
-===================
+# GitHub Markdown Cheatsheet
+
 
 - - - - 
 # Heading 1 #
@@ -27,35 +27,35 @@ GitHub Markdown Cheatsheet
     Markup :  #### Heading 4 ####
 
 
-Common text
+### Common text
 
     Markup :  Common text
 
-_Emphasized text_
+###  _Emphasized text_
 
     Markup :  _Emphasized text_ or *Emphasized text*
 
-~~Strikethrough text~~
+### ~~Strikethrough text~~
 
     Markup :  ~~Strikethrough text~~
 
-__Strong text__
+### __Strong text__
 
     Markup :  __Strong text__ or **Strong text**
 
-___Strong emphasized text___
+### ___Strong emphasized text___
 
     Markup :  ___Strong emphasized text___ or ***Strong emphasized text***
 
-[Named Link](http://www.google.fr/ "Named link title") and http://www.google.fr/ or <http://example.com/>
+### [Named Link](http://www.google.fr/ "Named link title") and http://www.google.fr/ or <http://example.com/>
 
     Markup :  [Named Link](http://www.google.fr/ "Named link title") and http://www.google.fr/ or <http://example.com/>
 
-[heading-1](#heading-1 "Goto heading-1")
+### [heading-1](#heading-1 "Goto heading-1")
 
     Markup: [heading-1](#heading-1 "Goto heading-1")
 
-Table, like this one :
+### Table, like this one :
 
 First Header  | Second Header
 ------------- | -------------
@@ -69,7 +69,7 @@ Content Cell  | Content Cell
 Content Cell  | Content Cell
 ```
 
-Adding a pipe `|` in a cell :
+#### Adding a pipe `|` in a cell :
 
 First Header  | Second Header
 ------------- | -------------
@@ -83,7 +83,7 @@ Content Cell  | Content Cell
 Content Cell  |  \| 
 ```
 
-Left, right and center aligned table
+#### Left, right and center aligned table
 
 Left aligned Header | Right aligned Header | Center aligned Header
 | :--- | ---: | :---:
@@ -97,7 +97,7 @@ Content Cell  | Content Cell | Content Cell
 Content Cell  | Content Cell | Content Cell
 ```
 
-`code()`
+### `code()`
 
     Markup :  `code()`
 
@@ -120,6 +120,7 @@ Content Cell  | Content Cell | Content Cell
 
     Markup : ```javascript
              ```
+### Unordered List
 
 * Bullet list
     * Nested bullet
@@ -138,6 +139,8 @@ Content Cell  | Content Cell | Content Cell
           - Bullet list item 2 
 ~~~
 
+### Ordered List
+
 1. A numbered list
     1. A nested numbered list
     2. Which is numbered
@@ -149,6 +152,7 @@ Content Cell  | Content Cell | Content Cell
               2. Which is numbered
           2. Which is numbered
 ~~~
+
 
 - [ ] An uncompleted task
 - [x] A completed task
@@ -166,22 +170,23 @@ Content Cell  | Content Cell | Content Cell
               - [ ] A subtask
 ~~~
 
+
 > Blockquote
 >> Nested blockquote
     Markup :  > Blockquote
               >> Nested Blockquote
-_Horizontal line :_
+### _Horizontal line :_
 - - - -
 
     Markup :  - - - -
 
-_Image with alt :_
+### _Image with alt :_
 
 ![picture alt](http://via.placeholder.com/200x150 "Title is optional")
 
     Markup : ![picture alt](http://via.placeholder.com/200x150 "Title is optional")
 
-Foldable text:
+### Foldable text:
 
 <details>
   <summary>Title 1</summary>
@@ -204,12 +209,12 @@ Foldable text:
 
 Link to a specific part of the page:
 
-[Go To TOP](#TOP)
+### [Go To TOP](#TOP)
 
     Markup : [text goes here](#section_name)
               section_title<a name="section_name"></a>    
 
-Hotkey:
+### Hotkey:
 
 <kbd>⌘F</kbd>
 
@@ -217,7 +222,7 @@ Hotkey:
 
     Markup : <kbd>⌘F</kbd>
 
-Hotkey list:
+### Hotkey list:
 
 | Key | Symbol |
 | --- | --- |
@@ -236,7 +241,7 @@ Hotkey list:
 | Left | ← |
 | Right | → |
 
-Emoji:
+### Emoji:
 
 :exclamation: Use emoji icons to enhance text. :+1:  Look up emoji codes at [emoji-cheat-sheet.com](http://emoji-cheat-sheet.com/)
 

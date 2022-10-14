@@ -1,8 +1,6 @@
 # GitHub Markdown Cheatsheet
 
-
-- - - - 
-# Heading 1 #
+### Heading 1 
 
     Markup :  # Heading 1 #
 
@@ -10,7 +8,7 @@
 
     Markup :  ============= (below H1 text)
 
-## Heading 2 ##
+### Heading 2 
 
     Markup :  ## Heading 2 ##
 

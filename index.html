@@ -597,12 +597,15 @@
                 </a>
             </div>
             <p class="mt-8 text-base leading-6 text-center text-gray-400">
-                &copy; 2020 Designed with <a href="https://devdojo.com/tails" class="font-bold text-blue-500">Tails</a>
+                &copy; 2020-<span id="year"></span> Designed with <a href="https://devdojo.com/tails" class="font-bold text-blue-500">Tails</a>
             </p>
         </div>
     </footer>
     <!-- a little JS for the mobile nav button -->
     <script>
+	 var year=new Date();
+        year=year.getFullYear();
+        document.getElementById("year").innerHTML=year;												     
         if (document.getElementById('nav-mobile-btn')) {
             document.getElementById('nav-mobile-btn').addEventListener('click', function () {
                 if (this.classList.contains('close')) {

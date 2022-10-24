@@ -20,3 +20,9 @@ Also known as a source code manager (SCM) or a revision control system (RCS), it
 With distributed version control systems like Git, you would have your source code stored on a remote repository like GitHub and also a local repository stored on your computer.
 
 You will learn more about remote and local repositories in the next few chapters. Still, one of the main points for the moment is that your source code would be stored on a remote repository, so in case that something goes wrong with your laptop, you would not lose all of your changes, but they will be safely stored on GitHub.
+
+### Difference between git and other version control systems
+
+The way git thinks about data is the fundamental distinction between it and other well-known version control systems. Data is stored in generic VCS as a list of modifications to files. However, git uses *snapshots* to alter data.
+
+Git essentially takes a picture of the state of the files at the time some changes are committed. Git simply links the file back to its prior snapshot if there were no changes. This distinguishes git from other VCS because git rethinks nearly every aspect of version control that the majority of other systems merely adopted from the previous generation.

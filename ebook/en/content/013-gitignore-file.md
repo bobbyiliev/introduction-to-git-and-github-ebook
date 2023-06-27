@@ -83,7 +83,7 @@ It essentially includes all of the files and folders that are not needed to get 
 
 As the number of frameworks and application grows day by day, it might be hard to keep your `.gitignore` files up to date or it could be intimidating if you had to search for the correct `.gitignore` file for every specific framework that you use.
 
-I recently discovered an open-source project called [gitignore.io](http://gitignore.io). It is a site and a CLI tool with a huge list of predefined `gitignore` files for different frameworks. 
+I recently discovered an open-source project called [gitignore.io](https://www.toptal.com/developers/gitignore/). It is a site and a CLI tool with a huge list of predefined `gitignore` files for different frameworks. 
 
 All that you need to do is visit the site and search for the specific framework that you are using.
 

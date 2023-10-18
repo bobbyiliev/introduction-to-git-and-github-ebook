@@ -49,9 +49,38 @@
         }
 
         .download:hover{
+            transform: scale(1.1);
+            -webkit-transition-duration: 0.4s; 
             color: #4F46E5;
         }
 
+        .relativ:hover{
+            transform: scale(1.1);
+            -webkit-transition-duration: 0.4s; 
+        }
+
+        #nav a:hover{
+            transform: scale(1.2);
+            -webkit-transition-duration: 0.4s; 
+        }
+
+        .git:hover{
+            transform: scale(1.2);
+            -webkit-transition-duration: 0.4s; 
+        }
+
+        .abc:hover{
+            transform: scale(1.03);
+            -webkit-transition-duration: 0.4s; 
+        }
+        h3:hover{
+            color:hsl(243, 100%, 50%);
+            -webkit-transition-duration: 0.4s; 
+        }
+        .rel:hover{
+            transform: scale(1.4);
+            -webkit-transition-duration: 0.4s; 
+        }
     </style>
 </head>
 <body class="overflow-x-hidden antialiased">
@@ -73,7 +102,7 @@
                 <a href="#chapters"
                     class="mr-0 font-bold duration-100 md:mr-3 lg:mr-8 transition-color hover:text-indigo-600">Chapters</a>
                 <a href="/training.html"
-                    class="mr-0 font-bold duration-100 md:mr-3 lg:mr-8 transition-color hover:text-indigo-600">Interactive Training</a>
+                    class="mr-0 font-bold duration-100 md:mr-3 lg:mr-8 transition-color hover:text-indigo-600 scale-50;">Interactive Training</a>
                 <a href="https://blog.bobby.sh"
                     class="font-bold duration-100 transition-color hover:text-indigo-600">Blog</a>
                 <!-- <div class="flex flex-col block w-full font-medium border-t border-gray-200 md:hidden">
@@ -86,7 +115,7 @@
                 class="absolute left-0 flex-col items-center justify-center hidden w-full pb-8 mt-48 border-b border-gray-200 md:relative md:w-auto md:bg-transparent md:border-none md:mt-0 md:flex-row md:p-0 md:items-end md:flex md:justify-between">
                 <a href="https://github.com/bobbyiliev/introduction-to-git-and-github-ebook"
                     class="relative z-40 px-3 mr-0 text-sm font-bold text-pink-500 md:px-5 lg:text-white sm:mr-3 md:mt-0">
-                    <svg class="h-8 mr-4 text-white duration-150 cursor-pointer fill-current transition-color hover:text-gray-00" viewBox="0 0 2350 2315" xmlns="http://www.w3.org/2000/svg">
+                    <svg class="git h-8 mr-4 text-white duration-150 cursor-pointer fill-current transition-color hover:text-gray-00" viewBox="0 0 2350 2315" xmlns="http://www.w3.org/2000/svg">
                         <g stroke="none" stroke-width="1"></g>
                         <g>
                             <path d="M1175 0C525.8 0 0 525.8 0 1175c0 552.2 378.9 1010.5 890.1 1139.7-5.9-14.7-8.8-35.3-8.8-55.8v-199.8H734.4c-79.3 0-152.8-35.2-185.1-99.9-38.2-70.5-44.1-179.2-141-246.8-29.4-23.5-5.9-47 26.4-44.1 61.7 17.6 111.6 58.8 158.6 120.4 47 61.7 67.6 76.4 155.7 76.4 41.1 0 105.7-2.9 164.5-11.8 32.3-82.3 88.1-155.7 155.7-190.9-393.6-47-581.6-240.9-581.6-505.3 0-114.6 49.9-223.3 132.2-317.3-26.4-91.1-61.7-279.1 11.8-352.5 176.3 0 282 114.6 308.4 143.9 88.1-29.4 185.1-47 284.9-47 102.8 0 196.8 17.6 284.9 47 26.4-29.4 132.2-143.9 308.4-143.9 70.5 70.5 38.2 261.4 8.8 352.5 82.3 91.1 129.3 202.7 129.3 317.3 0 264.4-185.1 458.3-575.7 499.4 108.7 55.8 185.1 214.4 185.1 331.9V2256c0 8.8-2.9 17.6-2.9 26.4C2021 2123.8 2350 1689.1 2350 1175 2350 525.8 1824.2 0 1175 0z"></path>
@@ -160,7 +189,7 @@
                 <p class="pr-0 mb-8 text-base text-gray-600 sm:text-lg xl:text-xl lg:pr-20">Are you ready to start your
                     adventure and learn Git?</p>
                 <a href="#download"
-                    class="relative self-start inline-block w-auto px-8 py-4 mx-auto mt-0 text-base font-bold text-white bg-gray-900 border-t border-gray-200 rounded-md shadow-xl hover:bg-gray-700 sm:mt-1 fold-bold lg:mx-0">Free Download
+                    class="relativ self-start inline-block w-auto px-8 py-4 mx-auto mt-0 text-base font-bold text-white bg-gray-900 border-t border-gray-200 rounded-md shadow-xl hover:bg-gray-700 sm:mt-1 fold-bold lg:mx-0">Free Download
                 </a>
                 <!-- Sponsors with section -->
                 <div class="flex-col hidden mt-12 sm:flex lg:mt-24">
@@ -235,7 +264,7 @@
     <!-- Content Section -->
     <div id="ebook" class="flex flex-col w-full pt-10 overflow-hidden bg-white border-t border-gray-200 lg:flex-row sm:mx-auto">
         <div class="relative lg:w-1/2">
-            <img src="https://imgur.com/0yytIL4.png" alt="Persons talking in a work setting." class="object-cover w-full lg:absolute h-80 lg:h-full">
+            <img src="https://imgur.com/0yytIL4.png" alt="Persons talking in a work setting." class="obj object-cover w-full lg:absolute h-80 lg:h-full">
             <svg class="absolute top-0 right-0 hidden h-full text-white lg:inline-block" viewBox="0 0 20 104" fill="currentColor">
                 <polygon points="17.3036738 5.68434189e-14 20 5.68434189e-14 20 104 0.824555778 104"></polygon>
             </svg>
@@ -253,7 +282,7 @@
                 This is an open-source introduction to Git and GitHub guide that will help you learn the basics of version control and start using Git for your SysOps, DevOps, and Dev projects. 
             </p>
             <div class="flex items-center">
-                <a href="#download" type="submit" class="inline-flex items-center justify-center h-12 px-6 mr-6 font-medium tracking-wide text-white transition duration-200 bg-gray-900 rounded-lg hover:bg-gray-700 focus:shadow-outline focus:outline-none">
+                <a href="#download" type="submit" class="relativ inline-flex items-center justify-center h-12 px-6 mr-6 font-medium tracking-wide text-white transition duration-200 bg-gray-900 rounded-lg hover:bg-gray-700 focus:shadow-outline focus:outline-none">
                     Free Download
                 </a>
             </div>
@@ -292,143 +321,143 @@
             <p class="mx-6 my-6 text-xs font-bold text-left text-pink-500 uppercase sm:text-center sm:text-normal sm:font-bold">After reading this guide you will learn all of the commands and concepts that you need to start using Git and GitHub</p>
 			
 			<a target="_blank" href="https://github.com/bobbyiliev/introduction-to-git-and-github-ebook/blob/1d56e6294bb722b5ad335f7065402261bd79cdfe/ebook/en/content/000-introduction.md">
-				<div class="w-full px-6 py-6 mx-auto mt-4 bg-white border border-gray-200 sm:px-8 md:px-12 sm:py-8 sm:rounded-lg sm:shadow md:w-2/3">
+				<div class="abc w-full px-6 py-6 mx-auto mt-4 bg-white border border-gray-200 sm:px-8 md:px-12 sm:py-8 sm:rounded-lg sm:shadow md:w-2/3">
 					<h3 class="text-lg font-bold text-purple-500 sm:text-xl md:text-2xl">About the book</h3>
 				</div>
 			</a>
 			<a target="_blank" href="https://github.com/bobbyiliev/introduction-to-git-and-github-ebook/blob/1d56e6294bb722b5ad335f7065402261bd79cdfe/ebook/en/content/001-introduction-to-git.md">
-				<div class="w-full px-6 py-6 mx-auto mt-4 bg-white border border-gray-200 sm:px-8 md:px-12 sm:py-8 sm:rounded-lg sm:shadow md:w-2/3">
+				<div class="abc w-full px-6 py-6 mx-auto mt-4 bg-white border border-gray-200 sm:px-8 md:px-12 sm:py-8 sm:rounded-lg sm:shadow md:w-2/3">
 					<h3 class="text-lg font-bold text-purple-500 sm:text-xl md:text-2xl">Introduction to Git</h3>
 				</div>
 			</a>
 			<a target="_blank" href="https://github.com/bobbyiliev/introduction-to-git-and-github-ebook/blob/1d56e6294bb722b5ad335f7065402261bd79cdfe/ebook/en/content/002-version-control.md">
-				<div class="w-full px-6 py-6 mx-auto mt-4 bg-white border border-gray-200 sm:px-8 md:px-12 sm:py-8 sm:rounded-lg sm:shadow md:w-2/3">
+				<div class="abc w-full px-6 py-6 mx-auto mt-4 bg-white border border-gray-200 sm:px-8 md:px-12 sm:py-8 sm:rounded-lg sm:shadow md:w-2/3">
 					<h3 class="text-lg font-bold text-purple-500 sm:text-xl md:text-2xl">Version Control</h3>
 				</div>
 			</a>
 			<a target="_blank" href="https://github.com/bobbyiliev/introduction-to-git-and-github-ebook/blob/1d56e6294bb722b5ad335f7065402261bd79cdfe/ebook/en/content/003-installing-git.md">
-				<div class="w-full px-6 py-6 mx-auto mt-4 bg-white border border-gray-200 sm:px-8 md:px-12 sm:py-8 sm:rounded-lg sm:shadow md:w-2/3">
+				<div class="abc w-full px-6 py-6 mx-auto mt-4 bg-white border border-gray-200 sm:px-8 md:px-12 sm:py-8 sm:rounded-lg sm:shadow md:w-2/3">
 					<h3 class="text-lg font-bold text-purple-500 sm:text-xl md:text-2xl">Installing Git</h3>
 				</div>	
 			</a>
 			<a target="_blank" href="https://github.com/bobbyiliev/introduction-to-git-and-github-ebook/blob/1d56e6294bb722b5ad335f7065402261bd79cdfe/ebook/en/content/004-basic-shell-commands.md">
-				<div class="w-full px-6 py-6 mx-auto mt-4 bg-white border border-gray-200 sm:px-8 md:px-12 sm:py-8 sm:rounded-lg sm:shadow md:w-2/3">
+				<div class="abc w-full px-6 py-6 mx-auto mt-4 bg-white border border-gray-200 sm:px-8 md:px-12 sm:py-8 sm:rounded-lg sm:shadow md:w-2/3">
 					<h3 class="text-lg font-bold text-purple-500 sm:text-xl md:text-2xl">Basic Shell Commands</h3>
 				</div>
 			</a>
 			<a target="_blank" href="https://github.com/bobbyiliev/introduction-to-git-and-github-ebook/blob/1d56e6294bb722b5ad335f7065402261bd79cdfe/ebook/en/content/005-git-configuration.md">
-				<div class="w-full px-6 py-6 mx-auto mt-4 bg-white border border-gray-200 sm:px-8 md:px-12 sm:py-8 sm:rounded-lg sm:shadow md:w-2/3">
+				<div class="abc w-full px-6 py-6 mx-auto mt-4 bg-white border border-gray-200 sm:px-8 md:px-12 sm:py-8 sm:rounded-lg sm:shadow md:w-2/3">
 					<h3 class="text-lg font-bold text-purple-500 sm:text-xl md:text-2xl">Git Configuration</h3>
 				</div>
 			</a>
 			<a target="_blank" href="https://github.com/bobbyiliev/introduction-to-git-and-github-ebook/blob/1d56e6294bb722b5ad335f7065402261bd79cdfe/ebook/en/content/006-introduction-to-GitHub.md">
-				<div class="w-full px-6 py-6 mx-auto mt-4 bg-white border border-gray-200 sm:px-8 md:px-12 sm:py-8 sm:rounded-lg sm:shadow md:w-2/3">
+				<div class="abc w-full px-6 py-6 mx-auto mt-4 bg-white border border-gray-200 sm:px-8 md:px-12 sm:py-8 sm:rounded-lg sm:shadow md:w-2/3">
 					<h3 class="text-lg font-bold text-purple-500 sm:text-xl md:text-2xl">Introduction to GitHub</h3>
 				</div>
 			</a>
 			<a target="_blank" href="https://github.com/bobbyiliev/introduction-to-git-and-github-ebook/blob/1d56e6294bb722b5ad335f7065402261bd79cdfe/ebook/en/content/007-initializing-a-project.md">
-				<div class="w-full px-6 py-6 mx-auto mt-4 bg-white border border-gray-200 sm:px-8 md:px-12 sm:py-8 sm:rounded-lg sm:shadow md:w-2/3">
+				<div class="abc w-full px-6 py-6 mx-auto mt-4 bg-white border border-gray-200 sm:px-8 md:px-12 sm:py-8 sm:rounded-lg sm:shadow md:w-2/3">
 					<h3 class="text-lg font-bold text-purple-500 sm:text-xl md:text-2xl">Initializing a Git project</h3>
 				</div>
 			</a>
 			<a target="_blank" href="https://github.com/bobbyiliev/introduction-to-git-and-github-ebook/blob/1d56e6294bb722b5ad335f7065402261bd79cdfe/ebook/en/content/008-git-status.md">
-				<div class="w-full px-6 py-6 mx-auto mt-4 bg-white border border-gray-200 sm:px-8 md:px-12 sm:py-8 sm:rounded-lg sm:shadow md:w-2/3">
+				<div class="abc w-full px-6 py-6 mx-auto mt-4 bg-white border border-gray-200 sm:px-8 md:px-12 sm:py-8 sm:rounded-lg sm:shadow md:w-2/3">
 					<h3 class="text-lg font-bold text-purple-500 sm:text-xl md:text-2xl">Git Status</h3>
 				</div>
 			</a>
 			<a target="_blank" href="https://github.com/bobbyiliev/introduction-to-git-and-github-ebook/blob/1d56e6294bb722b5ad335f7065402261bd79cdfe/ebook/en/content/009-git-add.md">
-				<div class="w-full px-6 py-6 mx-auto mt-4 bg-white border border-gray-200 sm:px-8 md:px-12 sm:py-8 sm:rounded-lg sm:shadow md:w-2/3">
+				<div class="abc w-full px-6 py-6 mx-auto mt-4 bg-white border border-gray-200 sm:px-8 md:px-12 sm:py-8 sm:rounded-lg sm:shadow md:w-2/3">
 					<h3 class="text-lg font-bold text-purple-500 sm:text-xl md:text-2xl">Git Add</h3>
 				</div>
 			</a>
 			<a target="_blank" href="https://github.com/bobbyiliev/introduction-to-git-and-github-ebook/blob/1d56e6294bb722b5ad335f7065402261bd79cdfe/ebook/en/content/010-git-commit.md">
-				<div class="w-full px-6 py-6 mx-auto mt-4 bg-white border border-gray-200 sm:px-8 md:px-12 sm:py-8 sm:rounded-lg sm:shadow md:w-2/3">
+				<div class="abc w-full px-6 py-6 mx-auto mt-4 bg-white border border-gray-200 sm:px-8 md:px-12 sm:py-8 sm:rounded-lg sm:shadow md:w-2/3">
 					<h3 class="text-lg font-bold text-purple-500 sm:text-xl md:text-2xl">Git Commit</h3>
 				</div>
 			</a>
 			<a target="_blank" href="https://github.com/bobbyiliev/introduction-to-git-and-github-ebook/blob/1d56e6294bb722b5ad335f7065402261bd79cdfe/ebook/en/content/011-git-diff.md">
-				<div class="w-full px-6 py-6 mx-auto mt-4 bg-white border border-gray-200 sm:px-8 md:px-12 sm:py-8 sm:rounded-lg sm:shadow md:w-2/3">
+				<div class="abc w-full px-6 py-6 mx-auto mt-4 bg-white border border-gray-200 sm:px-8 md:px-12 sm:py-8 sm:rounded-lg sm:shadow md:w-2/3">
 					<h3 class="text-lg font-bold text-purple-500 sm:text-xl md:text-2xl">Git Diff</h3>
 				</div>
 			</a>
 			<a target="_blank" href="https://github.com/bobbyiliev/introduction-to-git-and-github-ebook/blob/1d56e6294bb722b5ad335f7065402261bd79cdfe/ebook/en/content/012-git-log.md">
-				<div class="w-full px-6 py-6 mx-auto mt-4 bg-white border border-gray-200 sm:px-8 md:px-12 sm:py-8 sm:rounded-lg sm:shadow md:w-2/3">
+				<div class="abc w-full px-6 py-6 mx-auto mt-4 bg-white border border-gray-200 sm:px-8 md:px-12 sm:py-8 sm:rounded-lg sm:shadow md:w-2/3">
 					<h3 class="text-lg font-bold text-purple-500 sm:text-xl md:text-2xl">Git Log</h3>
 				</div>
 			</a>
 			<a target="_blank" href="https://github.com/bobbyiliev/introduction-to-git-and-github-ebook/blob/1d56e6294bb722b5ad335f7065402261bd79cdfe/ebook/en/content/013-gitignore-file.md">
-				<div class="w-full px-6 py-6 mx-auto mt-4 bg-white border border-gray-200 sm:px-8 md:px-12 sm:py-8 sm:rounded-lg sm:shadow md:w-2/3">
+				<div class="abc w-full px-6 py-6 mx-auto mt-4 bg-white border border-gray-200 sm:px-8 md:px-12 sm:py-8 sm:rounded-lg sm:shadow md:w-2/3">
 					<h3 class="text-lg font-bold text-purple-500 sm:text-xl md:text-2xl">Gitignore</h3>
 				</div>
 			</a>
 			<a target="_blank" href="https://github.com/bobbyiliev/introduction-to-git-and-github-ebook/blob/1d56e6294bb722b5ad335f7065402261bd79cdfe/ebook/en/content/014-ssh-keys.md">
-				<div class="w-full px-6 py-6 mx-auto mt-4 bg-white border border-gray-200 sm:px-8 md:px-12 sm:py-8 sm:rounded-lg sm:shadow md:w-2/3">
+				<div class="abc w-full px-6 py-6 mx-auto mt-4 bg-white border border-gray-200 sm:px-8 md:px-12 sm:py-8 sm:rounded-lg sm:shadow md:w-2/3">
 					<h3 class="text-lg font-bold text-purple-500 sm:text-xl md:text-2xl">SSH Keys</h3>
 				</div>
 			</a>
 			<a target="_blank" href="https://github.com/bobbyiliev/introduction-to-git-and-github-ebook/blob/1d56e6294bb722b5ad335f7065402261bd79cdfe/ebook/en/content/015-git-push.md">
-				<div class="w-full px-6 py-6 mx-auto mt-4 bg-white border border-gray-200 sm:px-8 md:px-12 sm:py-8 sm:rounded-lg sm:shadow md:w-2/3">
+				<div class="abc w-full px-6 py-6 mx-auto mt-4 bg-white border border-gray-200 sm:px-8 md:px-12 sm:py-8 sm:rounded-lg sm:shadow md:w-2/3">
 					<h3 class="text-lg font-bold text-purple-500 sm:text-xl md:text-2xl">Git Push</h3>
 				</div>
 			</a>
 			<a target="_blank" href="https://github.com/bobbyiliev/introduction-to-git-and-github-ebook/blob/1d56e6294bb722b5ad335f7065402261bd79cdfe/ebook/en/content/016-git-pull.md">
-				<div class="w-full px-6 py-6 mx-auto mt-4 bg-white border border-gray-200 sm:px-8 md:px-12 sm:py-8 sm:rounded-lg sm:shadow md:w-2/3">
+				<div class="abc w-full px-6 py-6 mx-auto mt-4 bg-white border border-gray-200 sm:px-8 md:px-12 sm:py-8 sm:rounded-lg sm:shadow md:w-2/3">
 					<h3 class="text-lg font-bold text-purple-500 sm:text-xl md:text-2xl">Git Pull</h3>
 				</div>
 			</a>
 			<a target="_blank" href="https://github.com/bobbyiliev/introduction-to-git-and-github-ebook/blob/1d56e6294bb722b5ad335f7065402261bd79cdfe/ebook/en/content/017-git-branching.md">
-				<div class="w-full px-6 py-6 mx-auto mt-4 bg-white border border-gray-200 sm:px-8 md:px-12 sm:py-8 sm:rounded-lg sm:shadow md:w-2/3">
+				<div class="abc w-full px-6 py-6 mx-auto mt-4 bg-white border border-gray-200 sm:px-8 md:px-12 sm:py-8 sm:rounded-lg sm:shadow md:w-2/3">
 					<h3 class="text-lg font-bold text-purple-500 sm:text-xl md:text-2xl">Git Branches</h3>
 				</div>
 			</a>
 			<a target="_blank" href="https://github.com/bobbyiliev/introduction-to-git-and-github-ebook/blob/1d56e6294bb722b5ad335f7065402261bd79cdfe/ebook/en/content/018-git-merge.md">
-				<div class="w-full px-6 py-6 mx-auto mt-4 bg-white border border-gray-200 sm:px-8 md:px-12 sm:py-8 sm:rounded-lg sm:shadow md:w-2/3">
+				<div class="abc w-full px-6 py-6 mx-auto mt-4 bg-white border border-gray-200 sm:px-8 md:px-12 sm:py-8 sm:rounded-lg sm:shadow md:w-2/3">
 					<h3 class="text-lg font-bold text-purple-500 sm:text-xl md:text-2xl">Git Merge</h3>
 				</div>
 			</a>
 			<a target="_blank" href="https://github.com/bobbyiliev/introduction-to-git-and-github-ebook/blob/1d56e6294bb722b5ad335f7065402261bd79cdfe/ebook/en/content/019-undoing-in-git.md">
-				<div class="w-full px-6 py-6 mx-auto mt-4 bg-white border border-gray-200 sm:px-8 md:px-12 sm:py-8 sm:rounded-lg sm:shadow md:w-2/3">
+				<div class="abc w-full px-6 py-6 mx-auto mt-4 bg-white border border-gray-200 sm:px-8 md:px-12 sm:py-8 sm:rounded-lg sm:shadow md:w-2/3">
 					<h3 class="text-lg font-bold text-purple-500 sm:text-xl md:text-2xl">Reverting changes</h3>
 				</div>
 			</a>
 			<a target="_blank" href="https://github.com/bobbyiliev/introduction-to-git-and-github-ebook/blob/1d56e6294bb722b5ad335f7065402261bd79cdfe/ebook/en/content/020-git-clone.md">
-				<div class="w-full px-6 py-6 mx-auto mt-4 bg-white border border-gray-200 sm:px-8 md:px-12 sm:py-8 sm:rounded-lg sm:shadow md:w-2/3">
+				<div class="abc w-full px-6 py-6 mx-auto mt-4 bg-white border border-gray-200 sm:px-8 md:px-12 sm:py-8 sm:rounded-lg sm:shadow md:w-2/3">
 					<h3 class="text-lg font-bold text-purple-500 sm:text-xl md:text-2xl">Git Clone</h3>
 				</div>
 			</a>
 			<a target="_blank" href="https://github.com/bobbyiliev/introduction-to-git-and-github-ebook/blob/1d56e6294bb722b5ad335f7065402261bd79cdfe/ebook/en/content/021-forking-in-git.md">
-				<div class="w-full px-6 py-6 mx-auto mt-4 bg-white border border-gray-200 sm:px-8 md:px-12 sm:py-8 sm:rounded-lg sm:shadow md:w-2/3">
+				<div class="abc w-full px-6 py-6 mx-auto mt-4 bg-white border border-gray-200 sm:px-8 md:px-12 sm:py-8 sm:rounded-lg sm:shadow md:w-2/3">
 					<h3 class="text-lg font-bold text-purple-500 sm:text-xl md:text-2xl">Forking in Git</h3>
 				</div>
 			</a>
 			<a target="_blank" href="https://github.com/bobbyiliev/introduction-to-git-and-github-ebook/blob/1d56e6294bb722b5ad335f7065402261bd79cdfe/ebook/en/content/022-git-workflow.md">
-				<div class="w-full px-6 py-6 mx-auto mt-4 bg-white border border-gray-200 sm:px-8 md:px-12 sm:py-8 sm:rounded-lg sm:shadow md:w-2/3">
+				<div class="abc w-full px-6 py-6 mx-auto mt-4 bg-white border border-gray-200 sm:px-8 md:px-12 sm:py-8 sm:rounded-lg sm:shadow md:w-2/3">
 					<h3 class="text-lg font-bold text-purple-500 sm:text-xl md:text-2xl">Git Workflow</h3>
 				</div>
 			</a>
 			<a target="_blank" href="https://github.com/bobbyiliev/introduction-to-git-and-github-ebook/blob/1d56e6294bb722b5ad335f7065402261bd79cdfe/ebook/en/content/023-pull-requests.md">
-				<div class="w-full px-6 py-6 mx-auto mt-4 bg-white border border-gray-200 sm:px-8 md:px-12 sm:py-8 sm:rounded-lg sm:shadow md:w-2/3">
+				<div class="abc w-full px-6 py-6 mx-auto mt-4 bg-white border border-gray-200 sm:px-8 md:px-12 sm:py-8 sm:rounded-lg sm:shadow md:w-2/3">
 					<h3 class="text-lg font-bold text-purple-500 sm:text-xl md:text-2xl">Pull Requests</h3>
 				</div>
 			</a>
 			<a target="_blank" href="https://github.com/bobbyiliev/introduction-to-git-and-github-ebook/blob/1d56e6294bb722b5ad335f7065402261bd79cdfe/ebook/en/content/024-git-and-VS-Code.md">
-				<div class="w-full px-6 py-6 mx-auto mt-4 bg-white border border-gray-200 sm:px-8 md:px-12 sm:py-8 sm:rounded-lg sm:shadow md:w-2/3">
+				<div class="abc w-full px-6 py-6 mx-auto mt-4 bg-white border border-gray-200 sm:px-8 md:px-12 sm:py-8 sm:rounded-lg sm:shadow md:w-2/3">
 					<h3 class="text-lg font-bold text-purple-500 sm:text-xl md:text-2xl">Git And VS Code</h3>
 				</div>
 			</a>
 			<a target="_blank" href="https://github.com/bobbyiliev/introduction-to-git-and-github-ebook/blob/1d56e6294bb722b5ad335f7065402261bd79cdfe/ebook/en/content/025-github-cli.md">
-				<div class="w-full px-6 py-6 mx-auto mt-4 bg-white border border-gray-200 sm:px-8 md:px-12 sm:py-8 sm:rounded-lg sm:shadow md:w-2/3">
+				<div class="abc w-full px-6 py-6 mx-auto mt-4 bg-white border border-gray-200 sm:px-8 md:px-12 sm:py-8 sm:rounded-lg sm:shadow md:w-2/3">
 					<h3 class="text-lg font-bold text-purple-500 sm:text-xl md:text-2xl">GitHub CLI</h3>
 				</div>
 			</a>
 			<a target="_blank" href="https://github.com/bobbyiliev/introduction-to-git-and-github-ebook/blob/1d56e6294bb722b5ad335f7065402261bd79cdfe/ebook/en/content/998-git-commands-cheat-sheet.md">
-				<div class="w-full px-6 py-6 mx-auto mt-4 bg-white border border-gray-200 sm:px-8 md:px-12 sm:py-8 sm:rounded-lg sm:shadow md:w-2/3">
+				<div class="abc w-full px-6 py-6 mx-auto mt-4 bg-white border border-gray-200 sm:px-8 md:px-12 sm:py-8 sm:rounded-lg sm:shadow md:w-2/3">
 					<h3 class="text-lg font-bold text-purple-500 sm:text-xl md:text-2xl">Git Cheat Sheet</h3>
 				</div>
 			</a>
 			<a target="_blank" href="https://github.com/bobbyiliev/introduction-to-git-and-github-ebook/blob/1d56e6294bb722b5ad335f7065402261bd79cdfe/ebook/en/content/999-conclusion.md">
-				<div class="w-full px-6 py-6 mx-auto mt-4 bg-white border border-gray-200 sm:px-8 md:px-12 sm:py-8 sm:rounded-lg sm:shadow md:w-2/3">
-					<h3 class="text-lg font-bold text-purple-500 sm:text-xl md:text-2xl">Wrap up</h3>
+				<div class="abc w-full px-6 py-6 mx-auto mt-4 bg-white border border-gray-200 sm:px-8 md:px-12 sm:py-8 sm:rounded-lg sm:shadow md:w-2/3">
+					<h3 class="font-bold text-purple-500 sm:text-xl md:text-2xl">Wrap up</h3>
 				</div>
 			</a>
 
@@ -463,7 +492,7 @@
                             <p class="mt-1 mb-4 text-base leading-6 text-gray-500">
                                 Download the Dark theme of the Introduction to Git and GitHub eBook
                             </p>
-                            <a href="https://github.com/bobbyiliev/introduction-to-git-and-github-ebook/raw/main/ebook/en/export/introduction-to-git-and-github-dark.pdf" class="px-4 py-2 font-semibold text-gray-200 bg-gray-500 border border-green-700 border-none rounded shadow btn btn-secundary hover:bg-gray-600"> Free Download</a>
+                            <a href="https://github.com/bobbyiliev/introduction-to-git-and-github-ebook/raw/main/ebook/en/export/introduction-to-git-and-github-dark.pdf" class="relativ px-4 py-2 font-semibold text-gray-200 bg-gray-500 border border-green-700 border-none rounded shadow btn btn-secundary hover:bg-gray-600"> Free Download</a>
                         </div>
                     </div>
 
@@ -483,7 +512,7 @@
                             <p class="mt-1 mb-4 text-base leading-6 text-gray-500">
                                 Download the Light theme of the Introduction to Git and GitHub eBook
                             </p>
-                            <a href="https://github.com/bobbyiliev/introduction-to-git-and-github-ebook/raw/main/ebook/en/export/introduction-to-git-and-github-light.pdf" class="px-4 py-2 font-semibold text-white bg-blue-500 border border-green-700 border-none rounded shadow btn btn-secundary hover:bg-blue-600"> Free Download</a>
+                            <a href="https://github.com/bobbyiliev/introduction-to-git-and-github-ebook/raw/main/ebook/en/export/introduction-to-git-and-github-light.pdf" class="relativ px-4 py-2 font-semibold text-white bg-blue-500 border border-green-700 border-none rounded shadow btn btn-secundary hover:bg-blue-600"> Free Download</a>
                         </div>
                     </div>
                 </div>
@@ -506,7 +535,7 @@
             <div class="flex mb-8 lg:mt-6 lg:mb-0">
                 <div class="inline-flex">
                     <a href="/training.html" target="_blank"
-                        class="inline-flex items-center justify-center px-5 py-3 text-base font-medium text-gray-700 transition duration-150 ease-in-out bg-gray-100 border border-transparent rounded-md hover:text-gray-900 hover:bg-gray-200 focus:outline-none focus:shadow-outline focus:border-indigo-300">
+                        class="relativ inline-flex items-center justify-center px-5 py-3 text-base font-medium text-gray-700 transition duration-150 ease-in-out bg-gray-100 border border-transparent rounded-md hover:text-gray-900 hover:bg-gray-200 focus:outline-none focus:shadow-outline focus:border-indigo-300">
                         Start Free Training
                     </a>
                 </div>
@@ -528,7 +557,7 @@
                     <h4 class="pb-0 mb-0 text-lg font-semibold mb-md-0">Enjoying the free eBook?</h4>
                     <p class="mb-0 text-gray-700">Support this opensource project by staring it on GitHub!</p>
                 </div>
-                <a href="https://github.com/bobbyiliev/introduction-to-git-and-github-ebook" class="px-4 py-2 font-semibold text-white bg-green-500 border border-green-700 border-none rounded shadow btn btn-secundary hover:bg-green-600"> 
+                <a href="https://github.com/bobbyiliev/introduction-to-git-and-github-ebook" class="relativ px-4 py-2 font-semibold text-white bg-green-500 border border-green-700 border-none rounded shadow btn btn-secundary hover:bg-green-600"> 
                     <svg class="inline-block h-8 mr-4 text-white duration-150 cursor-pointer fill-current transition-color hover:text-gray-00" viewBox="0 0 2350 2315" xmlns="http://www.w3.org/2000/svg">
                         <g stroke="none" stroke-width="1"></g>
                         <g>
@@ -545,63 +574,63 @@
     <footer class="bg-white">
         <div class="max-w-screen-xl px-4 py-12 mx-auto space-y-8 overflow-hidden sm:px-6 lg:px-8">
             <nav class="flex flex-wrap justify-center -mx-5 -my-2">
-                <div class="px-5 py-2">
+                <div class="relativ px-5 py-2">
                     <a href="#ebook" class="text-base leading-6 text-gray-500 hover:text-indigo-600">
                         eBook
                     </a>
                 </div>
-                <div class="px-5 py-2">
+                <div class="relativ px-5 py-2">
                     <a href="#sponsors" class="text-base leading-6 text-gray-500 hover:text-indigo-600">
                         Sponsors
                     </a>
                 </div>
-                <div class="px-5 py-2">
+                <div class="relativ px-5 py-2">
                     <a href="#chapters" class="text-base leading-6 text-gray-500 hover:text-indigo-600">
                         Chapters
                     </a>
                 </div>
-                <div class="px-5 py-2">
+                <div class="relativ px-5 py-2">
                     <a href="/training.html" class="text-base leading-6 text-gray-500 hover:text-indigo-600">
                         Interactive Training
                     </a>
                 </div>
-                <div class="px-5 py-2">
+                <div class="relativ px-5 py-2">
                     <a href="https://blog.bobby.sh" class="text-base leading-6 text-gray-500 hover:text-indigo-600">
                         Blog
                     </a>
                 </div>
-                <div class="px-5 py-2">
+                <div class="relativ px-5 py-2">
                     <a href="#" class="text-base leading-6 text-gray-500 hover:text-indigo-600">
                         Terms
                     </a>
                 </div>
             </nav>
             <div class="flex justify-center mt-8 space-x-6">
-                <a href="https://facebook.com/bobby.iliev4" class="text-gray-400 hover:text-gray-500">
+                <a href="https://facebook.com/bobby.iliev4" class="rel text-gray-400 hover:text-gray-500">
                     <span class="sr-only">Facebook</span>
                     <svg class="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 24 24">
                         <path fill-rule="evenodd" d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z" clip-rule="evenodd" />
                     </svg>
                 </a>
-                <a href="https://instagram.com/bobby.iliev" class="text-gray-400 hover:text-gray-500">
+                <a href="https://instagram.com/bobby.iliev" class="rel text-gray-400 hover:text-gray-500">
                     <span class="sr-only">Instagram</span>
                     <svg class="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 24 24">
                         <path fill-rule="evenodd" d="M12.315 2c2.43 0 2.784.013 3.808.06 1.064.049 1.791.218 2.427.465a4.902 4.902 0 011.772 1.153 4.902 4.902 0 011.153 1.772c.247.636.416 1.363.465 2.427.048 1.067.06 1.407.06 4.123v.08c0 2.643-.012 2.987-.06 4.043-.049 1.064-.218 1.791-.465 2.427a4.902 4.902 0 01-1.153 1.772 4.902 4.902 0 01-1.772 1.153c-.636.247-1.363.416-2.427.465-1.067.048-1.407.06-4.123.06h-.08c-2.643 0-2.987-.012-4.043-.06-1.064-.049-1.791-.218-2.427-.465a4.902 4.902 0 01-1.772-1.153 4.902 4.902 0 01-1.153-1.772c-.247-.636-.416-1.363-.465-2.427-.047-1.024-.06-1.379-.06-3.808v-.63c0-2.43.013-2.784.06-3.808.049-1.064.218-1.791.465-2.427a4.902 4.902 0 011.153-1.772A4.902 4.902 0 015.45 2.525c.636-.247 1.363-.416 2.427-.465C8.901 2.013 9.256 2 11.685 2h.63zm-.081 1.802h-.468c-2.456 0-2.784.011-3.807.058-.975.045-1.504.207-1.857.344-.467.182-.8.398-1.15.748-.35.35-.566.683-.748 1.15-.137.353-.3.882-.344 1.857-.047 1.023-.058 1.351-.058 3.807v.468c0 2.456.011 2.784.058 3.807.045.975.207 1.504.344 1.857.182.466.399.8.748 1.15.35.35.683.566 1.15.748.353.137.882.3 1.857.344 1.054.048 1.37.058 4.041.058h.08c2.597 0 2.917-.01 3.96-.058.976-.045 1.505-.207 1.858-.344.466-.182.8-.398 1.15-.748.35-.35.566-.683.748-1.15.137-.353.3-.882.344-1.857.048-1.055.058-1.37.058-4.041v-.08c0-2.597-.01-2.917-.058-3.96-.045-.976-.207-1.505-.344-1.858a3.097 3.097 0 00-.748-1.15 3.098 3.098 0 00-1.15-.748c-.353-.137-.882-.3-1.857-.344-1.023-.047-1.351-.058-3.807-.058zM12 6.865a5.135 5.135 0 110 10.27 5.135 5.135 0 010-10.27zm0 1.802a3.333 3.333 0 100 6.666 3.333 3.333 0 000-6.666zm5.338-3.205a1.2 1.2 0 110 2.4 1.2 1.2 0 010-2.4z" clip-rule="evenodd" />
                     </svg>
                 </a>
-                <a href="https://twitter.com/bobbyiliev_" class="text-gray-400 hover:text-gray-500">
+                <a href="https://twitter.com/bobbyiliev_" class="rel text-gray-400 hover:text-gray-500">
                     <span class="sr-only">Twitter</span>
                     <svg class="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 24 24">
                         <path d="M8.29 20.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0022 5.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.072 4.072 0 012.8 9.713v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 012 18.407a11.616 11.616 0 006.29 1.84" />
                     </svg>
                 </a>
-                <a href="https://github.com/bobbyiliev/introduction-to-git-and-github-ebook" class="text-gray-400 hover:text-gray-500">
+                <a href="https://github.com/bobbyiliev/introduction-to-git-and-github-ebook" class="rel text-gray-400 hover:text-gray-500">
                     <span class="sr-only">GitHub</span>
                     <svg class="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 24 24">
                         <path fill-rule="evenodd" d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z" clip-rule="evenodd" />
                     </svg>
                 </a>
-                <a href="https://devdojo.com/bobbyiliev" class="text-gray-400 hover:text-gray-500">
+                <a href="https://devdojo.com/bobbyiliev" class="rel text-gray-400 hover:text-gray-500">
                     <svg viewBox="0 0 520 460" class="w-6 h-6 text-gray-400 fill-current dark:text-white hover:text-gray-500" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><defs><path d="M81.079 81.293c2.351 40.815-19.808 63.171-51.101 87.082 79.261-53.553 176.523-95.401 271.687-104.232 166.088-15.338 205.72 189.752 67.267 233.939-50.059 15.858-100.118 31.71-150.177 47.831-11.74-31.973-25.035-63.427-35.206-95.915-24.767-77.206 111.854-94.099 147.578-97.218-60.745 15.08-74.836 32.23-69.875 56.404 3.126 13.257 7.044 28.076 10.945 41.586 26.863-7.533 53.452-15.334 80.314-23.128 40.93-11.704 38.33-100.07-25.559-93.053C205.19 147.836 102.46 201.903 0 262.73c16.94-8.057 100.379-51.724 111.59-23.396 33.896 86.556 96.467 155.703 188.767 208.993 142.367-82.405 214.329-202.489 219.277-367.034C453.15 27.098 376.689.001 300.261.001S147.436 27.098 81.079 81.293" id="a"></path></defs><g fill-rule="evenodd"><mask id="b"><use xlink:href="#a"></use></mask><use xlink:href="#a"></use><path d="M81.079 81.293c2.351 40.815-19.808 63.171-51.101 87.082 79.261-53.553 176.523-95.401 271.687-104.232 166.088-15.338 205.72 189.752 67.267 233.939-50.059 15.858-100.118 31.71-150.177 47.831-11.74-31.973-25.035-63.427-35.206-95.915-24.767-77.206 111.854-94.099 147.578-97.218-60.745 15.08-74.836 32.23-69.875 56.404 3.126 13.257 7.044 28.076 10.945 41.586 26.863-7.533 53.452-15.334 80.314-23.128 40.93-11.704 38.33-100.07-25.559-93.053C205.19 147.836 102.46 201.903 0 262.73c16.94-8.057 100.379-51.724 111.59-23.396 33.896 86.556 96.467 155.703 188.767 208.993 142.367-82.405 214.329-202.489 219.277-367.034C453.15 27.098 376.689.001 300.261.001S147.436 27.098 81.079 81.293"></path></g></svg>
                 </a>
             </div>

@@ -1,6 +1,6 @@
 # About the book
 
-* **This version was published on October 1 2021**
+* **This version was published on October 30 2023**
 
 This is an open-source introduction to Git and GitHub guide that will help you learn the basics of version control and start using Git for your SysOps, DevOps, and Dev projects. No matter if you are a DevOps/SysOps engineer, developer, or just a Linux enthusiast, you can use Git to track your code changes and collaborate with other members of your team or open source maintainers.
 
@@ -28,9 +28,9 @@ Founded in 2012 with offices in New York and Cambridge, MA, DigitalOcean offers 
 
 For more information, please visit [https://www.digitalocean.com](https://www.digitalocean.com) or follow [@digitalocean](https://twitter.com/digitalocean) on Twitter.
 
-If you are new to DigitalOcean, you can get a free $100 credit and spin up your own servers via this referral link here:
+If you are new to DigitalOcean, you can get a free $200 credit and spin up your own servers via this referral link here:
 
-[Free $100 Credit For DigitalOcean](https://m.do.co/c/2a9bba940f39)
+[Free $200 Credit For DigitalOcean](https://m.do.co/c/2a9bba940f39)
 
 ### DevDojo
 

@@ -12,11 +12,13 @@ The `ls` command allows you to list the contents of a folder/directory. All that
 ls
 ```
 
-The output will show you all of the files and folders that are located in your current directory. In my case, the output is the following:
+The output will show you all of the files and folders that are located in your current directory. In my case, starting from the root directory of this project, the output is the following:
 
 ```
-CONTRIBUTING.md ebook README.md
+CONTRIBUTING.md LICENSE README.md ebook index.html
 ```
+
+From the output, we can see that `CONTRIBUTING.md`,  `LICENSE`, `README.md`, `index.html` are files, while `ebook` is a subdirectory/subfolder.
 
 For more information about the `ls` command, make sure to check out this page [here](https://devdojo.com/tnylea/ls-command?ref=bobbyiliev).
 
@@ -30,7 +32,7 @@ The `cd` command stands for `Change Directory` and allows you to navigate throug
 cd ebook
 ```
 
-If I wanted to go back one level up, I would use the `cd ..` command.
+If I wanted to go back one level up, I would use the `cd ..` command. After doing so, I should be one level up from the `ebook` directory and back in the root directory of my project.
 
 ### The `pwd` command
 
@@ -95,7 +97,7 @@ mkdir My_New_Directory My_Another_New_Directory
 
 ### The `touch` command
 
-The `touch` command is used to update timestamps on files.  A useful feature of the touch command is that it will create an empty file.  This is useful if you want to create file in your directory that doesn't currently exist 
+The `touch` command is used to update timestamps on files.  A useful feature of the touch command is that it will create an empty file.  This is useful if you want to create file in your directory that doesn't currently exist: 
 
 ```bash
 touch README.md

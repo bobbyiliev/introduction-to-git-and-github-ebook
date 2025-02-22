@@ -152,9 +152,12 @@ If you ever need to create a graphic, poster, invitation, logo, presentation –
 
 ## 📖 Other eBooks
 
-- [Introduction to Bash Scripting eBook](https://github.com/bobbyiliev/introduction-to-bash-scripting)
+- [Introduction to Bash Scripting](https://github.com/bobbyiliev/introduction-to-bash-scripting)
 - [Introduction to SQL](https://github.com/bobbyiliev/introduction-to-sql)
+- [Introduction to Docker](https://github.com/bobbyiliev/introduction-to-docker-ebook)
 - [Laravel tips and tricks](https://github.com/bobbyiliev/laravel-tips-and-tricks-ebook)
+- [Introduction to Terraform](https://leanpub.com/introduction-to-terraform)
+- [Introduction to Linux](https://leanpub.com/introduction-to-linux)
 
 ## 🤲 Contributing
 

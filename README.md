@@ -144,7 +144,7 @@ If you ever need to create a graphic, poster, invitation, logo, presentation –
 ## 🔗 Links
 
 - [My blog](https://bobbyiliev.com)
-- [Free $100 Credit For DigitalOcean](https://m.do.co/c/2a9bba940f39)
+- [Free $200 Credit For DigitalOcean](https://m.do.co/c/2a9bba940f39)
 - [Join DevDojo](https://devdojo.com?ref=bobbyiliev)
 - [Ibis](https://github.com/themsaid/ibis/)
 - [Canva](https://www.canva.com/)

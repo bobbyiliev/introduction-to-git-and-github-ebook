@@ -7,7 +7,7 @@
 This book has been designed so that people can easily expand it.
 To request us to review changes that you create, you will need to create a pull request.
 Creating a pull request is described in
- [this tutorial](https://www.digitalocean.com/community/tutorials/how-to-create-a-pull-request-on-github).
+[this tutorial](https://www.digitalocean.com/community/tutorials/how-to-create-a-pull-request-on-github).
 
 ### File Location/Types
 
@@ -29,20 +29,21 @@ For example if you are adding a Bulgarian translation copy the `./ebook/en` fold
 
 ### PDF Generation
 
-The project uses [Ibis](https://github.com/themsaid/ibis/) developed by [Mohamed Said](https://github.com/themsaid).
+The project uses [Ibis Next](https://github.com/Hi-Folks/ibis-next), maintained by [Roberto Butti](https://github.com/roberto-butti) and originally developed by [Mohamed Said](https://github.com/themsaid).
 
-Make sure to follow the steps on how to get Ibis installed and how to use it here:
+Make sure to follow the steps on how to get Ibis Next installed and how to use it here:
 
-[Getting started with Ibis](https://github.com/themsaid/ibis/#installation)
+[Getting started with Ibis Next](https://github.com/Hi-Folks/ibis-next#installation)
 
 ## Issue Creation
 
 In the event that you have an issue using the guide or have a suggestion for a change but don't want to contribute changes,
- we are more than happy to help.
+we are more than happy to help.
 Make sure that when you create your issue, it follows the format for the type of issue you select
- (it has individual templates for each issue type).
+(it has individual templates for each issue type).
 
 Issue template types include the following:
- - Bug Reporting
- - Feature Requests
- - Help Requests
+
+- Bug Reporting
+- Feature Requests
+- Help Requests

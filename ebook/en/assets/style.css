@@ -1,0 +1,265 @@
+/* EPUB Styles for 101 Linux Commands eBook */
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+    color: #333;
+}
+
+h1 {
+    font-size: 32px;
+    font-weight: bold;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    page-break-before: always;
+    border-bottom: 2px solid #1a1c3e;
+    padding-bottom: 10px;
+    color: #1a1c3e;
+}
+
+h2 {
+    font-size: 28px;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    page-break-before: always;
+    color: #1a1c3e;
+}
+
+h3 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+h4, h5, h6 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 8px;
+    color: #333;
+}
+
+p {
+    margin-bottom: 15px;
+    text-align: justify;
+}
+
+ul, ol {
+    margin-bottom: 15px;
+    padding-left: 30px;
+}
+
+li {
+    margin-bottom: 5px;
+}
+
+pre {
+    background-color: #f5f5f5;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 15px;
+    margin: 20px 0;
+    overflow-x: auto;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 14px;
+    line-height: 1.4;
+}
+
+code {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 14px;
+    background-color: #f5f5f5;
+    padding: 2px 4px;
+    border-radius: 3px;
+    color: #A5215D;
+}
+
+pre code {
+    background: none;
+    padding: 0;
+    color: #2d2d2d;
+}
+
+blockquote {
+    margin: 20px 0;
+    padding: 15px 20px;
+    border-left: 4px solid #ccc;
+    background-color: #f9f9f9;
+    font-style: italic;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px 12px;
+    text-align: left;
+}
+
+th {
+    background-color: #f5f5f5;
+    font-weight: bold;
+}
+
+a {
+    color: #1a1c3e;
+    text-decoration: underline;
+}
+
+a:hover {
+    color: #333;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+}
+
+/* Special styles for aside blocks */
+.aside {
+    margin: 20px 0;
+    padding: 15px;
+    border-radius: 5px;
+    border-left: 4px solid;
+}
+
+.aside.note {
+    background-color: #e3f2fd;
+    border-left-color: #2196f3;
+}
+
+.aside.tip {
+    background-color: #e8f5e8;
+    border-left-color: #4caf50;
+}
+
+.aside.warning {
+    background-color: #fff3e0;
+    border-left-color: #ff9800;
+}
+
+.aside.danger {
+    background-color: #ffebee;
+    border-left-color: #f44336;
+}
+
+/* Keyboard shortcut styling */
+kbd {
+    display: inline-block;
+    padding: 3px 5px;
+    font-size: 11px;
+    line-height: 10px;
+    color: #444d56;
+    vertical-align: middle;
+    background-color: #fafbfc;
+    border: solid 1px #c6cbd1;
+    border-bottom-color: #959da5;
+    border-radius: 3px;
+    box-shadow: inset 0 -1px 0 #959da5;
+}
+
+/* Details/summary styling for collapsible content */
+details {
+    margin: 20px 0;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background-color: #f9f9f9;
+}
+
+summary {
+    cursor: pointer;
+    font-weight: bold;
+    color: #1a1c3e;
+    padding: 5px 0;
+}
+
+summary:hover {
+    color: #333;
+}
+
+details[open] {
+    background-color: #fff;
+}
+
+/* Task list styling */
+.task-list-item {
+    list-style: none;
+}
+
+.task-list-item input[type="checkbox"] {
+    margin-right: 8px;
+}
+
+/* Improved table styling for better readability */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    box-shadow: 0 2px 3px rgba(0,0,0,0.1);
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 12px 15px;
+    text-align: left;
+    vertical-align: top;
+}
+
+th {
+    background-color: #f8f9fa;
+    font-weight: bold;
+    color: #1a1c3e;
+    border-bottom: 2px solid #dee2e6;
+}
+
+tr:nth-child(even) {
+    background-color: #f8f9fa;
+}
+
+tr:hover {
+    background-color: #e9ecef;
+}
+
+/* Code block improvements */
+pre {
+    background-color: #f8f9fa;
+    border: 1px solid #e9ecef;
+    border-radius: 6px;
+    padding: 16px;
+    margin: 20px 0;
+    overflow-x: auto;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 14px;
+    line-height: 1.45;
+    box-shadow: inset 0 1px 2px rgba(0,0,0,0.1);
+}
+
+code {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 14px;
+    background-color: #f6f8fa;
+    padding: 2px 6px;
+    border-radius: 3px;
+    color: #d73a49;
+    border: 1px solid #e1e4e8;
+}
+
+pre code {
+    background: none;
+    padding: 0;
+    color: #24292e;
+    border: none;
+}

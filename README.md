@@ -20,48 +20,48 @@ The guide is suitable for anyone working as a developer, system administrator, o
 
 To download a copy of the eBook use one of the following links:
 
-* [**Dark mode**](https://github.com/bobbyiliev/introduction-to-git-and-github-ebook/raw/main/ebook/en/export/introduction-to-git-and-github-dark.pdf)
+- [**Dark mode**](https://github.com/bobbyiliev/introduction-to-git-and-github-ebook/raw/main/ebook/en/export/introduction-to-git-and-github-dark.pdf)
 
-* [**Light mode**](https://github.com/bobbyiliev/introduction-to-git-and-github-ebook/raw/main/ebook/en/export/introduction-to-git-and-github-light.pdf)
+- [**Light mode**](https://github.com/bobbyiliev/introduction-to-git-and-github-ebook/raw/main/ebook/en/export/introduction-to-git-and-github-light.pdf)
 
-* [**ePub**](https://github.com/bobbyiliev/introduction-to-git-and-github-ebook/raw/main/ebook/en/export/introduction-to-git-and-github.epub)
+- [**ePub**](https://github.com/bobbyiliev/introduction-to-git-and-github-ebook/raw/main/ebook/en/export/introduction-to-git-and-github.epub)
 
 ## 📘 Chapters
 
-* [**About the book**](ebook/en/content/000-introduction.md)
-* [**Introduction to Git**](ebook/en/content/001-introduction-to-git.md)
-* [**Version Control**](ebook/en/content/002-version-control.md)
-* [**Installing Git**](ebook/en/content/003-installing-git.md)
-* [**Basic Shell Commands**](ebook/en/content/004-basic-shell-commands.md)
-* [**Git Configuration**](ebook/en/content/005-git-configuration.md)
-* [**Introduction to GitHub**](ebook/en/content/006-introduction-to-GitHub.md)
-* [**Initializing a Git project**](ebook/en/content/007-initializing-a-project.md)
-* [**Git Status**](ebook/en/content/008-git-status.md)
-* [**Git Add**](ebook/en/content/009-git-add.md)
-* [**Git Commit**](ebook/en/content/010-git-commit.md)
-* [**Git Diff**](ebook/en/content/011-git-diff.md)
-* [**Git Log**](ebook/en/content/012-git-log.md)
-* [**Gitignore**](ebook/en/content/013-gitignore-file.md)
-* [**SSH Keys**](ebook/en/content/014-ssh-keys.md)
-* [**Git Push**](ebook/en/content/015-git-push.md)
-* [**Git Pull**](ebook/en/content/016-git-pull.md)
-* [**Git Branches**](ebook/en/content/017-git-branching.md)
-* [**Git Merge**](ebook/en/content/018-git-merge.md)
-* [**Reverting changes**](ebook/en/content/019-undoing-in-git.md)
-* [**Git Clone**](ebook/en/content/020-git-clone.md)
-* [**Forking in Git**](ebook/en/content/021-forking-in-git.md)
-* [**Git Workflow**](ebook/en/content/022-git-workflow.md)
-* [**Pull Requests**](ebook/en/content/023-pull-requests.md)
-* [**Git And VS Code**](ebook/en/content/024-git-and-VS-Code.md)
-* [**GitHub CLI**](ebook/en/content/025-github-cli.md)
-* [**Git Stash**](ebook/en/content/026-git-stash.md)
-* [**Git Alias**](ebook/en/content/027-git-alias.md)
-* [**Git Rebase**](ebook/en/content/028-git-rebase.md)
-* [**Git Switch**](ebook/en/content/029-git-switch.md)
-* [**GitHub Markdown Cheatsheet**](ebook/en/content/030-github-markdown-cheatsheet.md)
-* [**Git Cheat Sheet**](ebook/en/content/998-git-commands-cheat-sheet.md)
-* [**Create your GitHub profile**](ebook/en/content/997-create-your-github-profile.md)
-* [**Conclusion**](ebook/en/content/999-conclusion.md)
+- [**About the book**](ebook/en/content/000-introduction.md)
+- [**Introduction to Git**](ebook/en/content/001-introduction-to-git.md)
+- [**Version Control**](ebook/en/content/002-version-control.md)
+- [**Installing Git**](ebook/en/content/003-installing-git.md)
+- [**Basic Shell Commands**](ebook/en/content/004-basic-shell-commands.md)
+- [**Git Configuration**](ebook/en/content/005-git-configuration.md)
+- [**Introduction to GitHub**](ebook/en/content/006-introduction-to-GitHub.md)
+- [**Initializing a Git project**](ebook/en/content/007-initializing-a-project.md)
+- [**Git Status**](ebook/en/content/008-git-status.md)
+- [**Git Add**](ebook/en/content/009-git-add.md)
+- [**Git Commit**](ebook/en/content/010-git-commit.md)
+- [**Git Diff**](ebook/en/content/011-git-diff.md)
+- [**Git Log**](ebook/en/content/012-git-log.md)
+- [**Gitignore**](ebook/en/content/013-gitignore-file.md)
+- [**SSH Keys**](ebook/en/content/014-ssh-keys.md)
+- [**Git Push**](ebook/en/content/015-git-push.md)
+- [**Git Pull**](ebook/en/content/016-git-pull.md)
+- [**Git Branches**](ebook/en/content/017-git-branching.md)
+- [**Git Merge**](ebook/en/content/018-git-merge.md)
+- [**Reverting changes**](ebook/en/content/019-undoing-in-git.md)
+- [**Git Clone**](ebook/en/content/020-git-clone.md)
+- [**Forking in Git**](ebook/en/content/021-forking-in-git.md)
+- [**Git Workflow**](ebook/en/content/022-git-workflow.md)
+- [**Pull Requests**](ebook/en/content/023-pull-requests.md)
+- [**Git And VS Code**](ebook/en/content/024-git-and-VS-Code.md)
+- [**GitHub CLI**](ebook/en/content/025-github-cli.md)
+- [**Git Stash**](ebook/en/content/026-git-stash.md)
+- [**Git Alias**](ebook/en/content/027-git-alias.md)
+- [**Git Rebase**](ebook/en/content/028-git-rebase.md)
+- [**Git Switch**](ebook/en/content/029-git-switch.md)
+- [**GitHub Markdown Cheatsheet**](ebook/en/content/030-github-markdown-cheatsheet.md)
+- [**Git Cheat Sheet**](ebook/en/content/998-git-commands-cheat-sheet.md)
+- [**Create your GitHub profile**](ebook/en/content/997-create-your-github-profile.md)
+- [**Conclusion**](ebook/en/content/999-conclusion.md)
 
 ## 🌟 Sponsors
 
@@ -119,7 +119,7 @@ My name is Bobby Iliev, and I have been working as a Linux DevOps Engineer since
 
 I think it's essential always to keep professional and surround yourself with good people, work hard, and be nice to everyone. You have to perform at a consistently higher level than others. That's the mark of a true professional.
 
-For more information, please visit my blog at [https://bobbyiliev.com](https://bobbyiliev.com), follow me on Twitter [@bobbyiliev_](https://twitter.com/bobbyiliev_) and [YouTube](https://www.youtube.com/channel/UCQWmdHTeAO0UvaNqve9udRw).
+For more information, please visit my blog at [https://bobbyiliev.com](https://bobbyiliev.com), follow me on Twitter [@bobbyiliev\_](https://twitter.com/bobbyiliev_) and [YouTube](https://www.youtube.com/channel/UCQWmdHTeAO0UvaNqve9udRw).
 
 In case that you want to support me you can Buy Me a Coffee here:
 
@@ -127,9 +127,9 @@ In case that you want to support me you can Buy Me a Coffee here:
 
 ## 🔥 PDF Generation Tool
 
-The project uses [Ibis](https://github.com/themsaid/ibis/) developed by [Mohamed Said](https://github.com/themsaid).
+The project uses [Ibis Next](https://github.com/Hi-Folks/ibis-next), maintained by [Roberto Butti](https://github.com/roberto-butti) and originally developed by [Mohamed Said](https://github.com/themsaid).
 
-Ibis is a PHP tool that helps you write eBooks in Markdown.
+Ibis Next is a PHP tool that helps you write eBooks in Markdown.
 
 ## 📕 ePub Generation Tool
 
@@ -146,7 +146,7 @@ If you ever need to create a graphic, poster, invitation, logo, presentation –
 - [My blog](https://bobbyiliev.com)
 - [Free $200 Credit For DigitalOcean](https://m.do.co/c/2a9bba940f39)
 - [Join DevDojo](https://devdojo.com?ref=bobbyiliev)
-- [Ibis](https://github.com/themsaid/ibis/)
+- [Ibis Next](https://github.com/Hi-Folks/ibis-next)
 - [Canva](https://www.canva.com/)
 - [Tails](http://devdojo.com/tails)
 
@@ -162,5 +162,3 @@ If you ever need to create a graphic, poster, invitation, logo, presentation –
 ## 🤲 Contributing
 
 If you are contributing 🍿 please read the [contributing file](CONTRIBUTING.md) before submitting your pull requests.
-
-
